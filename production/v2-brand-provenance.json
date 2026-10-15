@@ -1,0 +1,64 @@
+{
+  "method": "Original app PNGs; trim transparency only; exact source alpha-mask compositing",
+  "source_component": "components/messages/aiva-chat-avatar.tsx",
+  "assets": [
+    {
+      "output": "public/brand/oa-light-trim.png",
+      "source": "public/brand/logo-light.png",
+      "source_sha256": "294d0b1070a1440dac6cbd4a86639e574c7696f866a2671f69b7ab24d2c0192d",
+      "transparent_bbox": [
+        0,
+        229,
+        1024,
+        794
+      ]
+    },
+    {
+      "theme": "light",
+      "source": "public/brand/aiva-mask-robot.png",
+      "source_sha256": "7ff48fd9c15aba399611bee9d13b380139ed67ec0ccefd4261f62c1da8882b95",
+      "color": "#737373"
+    },
+    {
+      "theme": "light",
+      "source": "public/brand/aiva-mask-o.png",
+      "source_sha256": "8d0a4c01e2e053bedfb9f73b08ae6d5ddfe5fedda29dd04dd4289702e502762b",
+      "color": "#0a0a0a"
+    },
+    {
+      "theme": "light",
+      "source": "public/brand/aiva-mask-a.png",
+      "source_sha256": "9330fcd50172a62734df3532936797603f65623ef05402d4289c8cb192a246e0",
+      "color": "#3BA4E0"
+    },
+    {
+      "output": "public/brand/oa-dark-trim.png",
+      "source": "public/brand/logo-dark.png",
+      "source_sha256": "977cb95a1868e484cb572d47b7c8d6ecbe53baddb692686eaf3eb181057a2d1f",
+      "transparent_bbox": [
+        0,
+        229,
+        1024,
+        794
+      ]
+    },
+    {
+      "theme": "dark",
+      "source": "public/brand/aiva-mask-robot.png",
+      "source_sha256": "7ff48fd9c15aba399611bee9d13b380139ed67ec0ccefd4261f62c1da8882b95",
+      "color": "#a3a3a3"
+    },
+    {
+      "theme": "dark",
+      "source": "public/brand/aiva-mask-o.png",
+      "source_sha256": "8d0a4c01e2e053bedfb9f73b08ae6d5ddfe5fedda29dd04dd4289702e502762b",
+      "color": "#fafafa"
+    },
+    {
+      "theme": "dark",
+      "source": "public/brand/aiva-mask-a.png",
+      "source_sha256": "9330fcd50172a62734df3532936797603f65623ef05402d4289c8cb192a246e0",
+      "color": "#3BA4E0"
+    }
+  ]
+}

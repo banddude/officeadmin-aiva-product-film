@@ -1,0 +1,33 @@
+{
+  "reviewed": true,
+  "source": "Final decoded MP4 frames",
+  "aspect_ratios": [
+    "16:9",
+    "9:16"
+  ],
+  "frames_per_movie": [
+    75,
+    300,
+    555,
+    840,
+    1140,
+    1395,
+    1635,
+    1845,
+    2100,
+    2340,
+    2565,
+    2775
+  ],
+  "checks": [
+    "Primary text readable and inside composition",
+    "Official marks complete",
+    "One actual application topbar",
+    "Phone display clipped to hardware screen",
+    "Unsent assistant draft explicit",
+    "Financial arithmetic consistent",
+    "Primary financial totals legible",
+    "Private-preview and demo-data disclosures present"
+  ],
+  "intentional_treatment": "Some app windows extend beyond the composition as close-up camera framing."
+}

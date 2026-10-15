@@ -1,14 +1,22 @@
 {
   "name": "officeadmin-product-film",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "fonts": "node scripts/fetch-font.mjs",
-    "studio": "remotion studio src/index.tsx",
+    "studio": "remotion studio src/v2-index.tsx",
     "typecheck": "tsc --noEmit",
-    "render": "node production/render.mjs",
-    "render:direct": "remotion render src/index.tsx OfficeAdminFilm out/officeadmin-aiva-direct.mp4 --codec=h264 --crf=18",
-    "review": "node production/render-review.mjs"
+    "render": "node production/v2-render.mjs landscape",
+    "render:direct": "remotion render src/v2-index.tsx OfficeAdminFilmV2 out/v2/OfficeAdmin_AIVA_V2_Direct.mp4 --codec=h264 --crf=17 --color-space=bt709",
+    "review": "node production/v2-review.mjs",
+    "render:vertical": "node production/v2-render.mjs portrait",
+    "test": "node production/v2-test.mjs",
+    "studio:v1": "remotion studio src/index.tsx",
+    "render:v1": "node production/render.mjs",
+    "review:v1": "node production/render-review.mjs",
+    "capture:build": "node production/capture2/build.mjs",
+    "capture": "node production/capture2/capture.mjs",
+    "test:delivery": "python3 production/v2-delivery-test.py"
   },
   "dependencies": {
     "@remotion/cli": "4.0.535",
@@ -22,7 +30,7 @@
     "@remotion/bundler": "4.0.535",
     "@remotion/renderer": "4.0.535"
   },
-  "description": "OfficeAdmin + AIVA: Run the work. Not the runaround. A 112-second Remotion product film.",
+  "description": "OfficeAdmin + AIVA: a 96-second source-authentic Remotion marketing film, landscape and vertical.",
   "engines": {
     "node": ">=22"
   }

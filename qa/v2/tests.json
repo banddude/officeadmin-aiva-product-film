@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "checks": 20,
+  "results": [
+    {
+      "name": "Actual-source capture provenance and private-preview disclosure",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: desktop-projects",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: desktop-estimate",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: desktop-invoice",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: desktop-dashboard",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: desktop-dashboard-financial",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: desktop-aiva",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: mobile-projects",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: mobile-estimate",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: mobile-invoice",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: mobile-invoice-paid",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: mobile-aiva",
+      "passed": true
+    },
+    {
+      "name": "Capture integrity: mobile-aiva-context",
+      "passed": true
+    },
+    {
+      "name": "Quantity units and estimate arithmetic",
+      "passed": true
+    },
+    {
+      "name": "Invoice balance and chronological consistency",
+      "passed": true
+    },
+    {
+      "name": "Fictional identities and explicitly unsent draft",
+      "passed": true
+    },
+    {
+      "name": "Narration slots, duration and explicit AY-vuh",
+      "passed": true
+    },
+    {
+      "name": "Official brand source hashes",
+      "passed": true
+    },
+    {
+      "name": "AAC soundtrack delivery",
+      "passed": true
+    },
+    {
+      "name": "Composition duration and source asset requirements",
+      "passed": true
+    }
+  ]
+}

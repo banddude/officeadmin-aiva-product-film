@@ -15,3 +15,27 @@ public/fonts/
 *.pem
 *.key
 .DS_Store
+
+# Version 2 local dependencies and render intermediates
+/node_modules
+/.voice
+/build-v2-*
+/out/v2/
+/public/audio/v2/*.wav
+/production/capture/
+/production/capture2/bundle.js
+/production/capture2/styles.css
+/production/capture2/index.html
+/production/capture2/metafile.json
+/production/refine-v2-layout.py
+/production/v2-final-adjustments.py
+/qa/v2/*.log
+/qa/v2/capture-projects.json
+/qa/v2/render-state-*.json
+/qa/v2/landscape-*.png
+/qa/v2/portrait-*.png
+
+/production/v2-delivery-polish.py
+
+__pycache__/
+*.pyc

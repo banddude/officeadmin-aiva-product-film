@@ -1,0 +1,12 @@
+{
+  "name": "AIVA",
+  "required": "AY-vuh",
+  "ipa": "/ˈeɪvə/",
+  "synthesis_token": "ˈeɪvə",
+  "engine_default_Ava": "ˈɑːvə",
+  "method": "Explicit phoneme input to Kokoro",
+  "cue_indices": [
+    7,
+    11
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "deliveries": [
+    {
+      "kind": "landscape",
+      "filename": "OfficeAdmin_AIVA_V2_Film.mp4",
+      "passed": true,
+      "width": 1920,
+      "height": 1080,
+      "frames": 2880,
+      "fps": 30,
+      "duration_seconds": 96.0,
+      "full_decode_errors": 0,
+      "audio_packet_sha256": "SHA256=977feb739f759d429fa7ea8e5675bbbbcb765e142e05d3d7567807762b50a918",
+      "audio_matches_master": true,
+      "integrated_lufs": -16.04,
+      "true_peak_dbtp": -1.4,
+      "fast_start": true,
+      "bytes": 14185160,
+      "sha256": "75857534bd4b7d0afdf264b773d9b42b13bd9eda3bc42fa6ecc8c5839ce9e56d"
+    },
+    {
+      "kind": "portrait",
+      "filename": "OfficeAdmin_AIVA_V2_Vertical.mp4",
+      "passed": true,
+      "width": 1080,
+      "height": 1920,
+      "frames": 2880,
+      "fps": 30,
+      "duration_seconds": 96.0,
+      "full_decode_errors": 0,
+      "audio_packet_sha256": "SHA256=977feb739f759d429fa7ea8e5675bbbbcb765e142e05d3d7567807762b50a918",
+      "audio_matches_master": true,
+      "integrated_lufs": -16.04,
+      "true_peak_dbtp": -1.4,
+      "fast_start": true,
+      "bytes": 12198944,
+      "sha256": "e321cab88fc29b1ff6a9d4d86404747aa498825f1bd1e083f97bf3cf137abd7a"
+    }
+  ]
+}

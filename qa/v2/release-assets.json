@@ -1,0 +1,22 @@
+{
+  "OfficeAdmin_AIVA_V2.srt": {
+    "bytes": 1029,
+    "sha256": "f9a762887bdcb046cec5f09495fe5b10d6f11de25a5df937b123bc1fce35c7a7"
+  },
+  "OfficeAdmin_AIVA_V2.vtt": {
+    "bytes": 1007,
+    "sha256": "529c247b0062d15bb123112519a09653b7530c7598e05ed597d56cab6f2b76af"
+  },
+  "OfficeAdmin_AIVA_V2_Audio_Stems.zip": {
+    "bytes": 75981260,
+    "sha256": "502f94fabdacfd4e1660ef12576c4b83995a2cf645cff772c6df94f2cf5db491"
+  },
+  "OfficeAdmin_AIVA_V2_Film.mp4": {
+    "bytes": 14185160,
+    "sha256": "75857534bd4b7d0afdf264b773d9b42b13bd9eda3bc42fa6ecc8c5839ce9e56d"
+  },
+  "OfficeAdmin_AIVA_V2_Vertical.mp4": {
+    "bytes": 12198944,
+    "sha256": "e321cab88fc29b1ff6a9d4d86404747aa498825f1bd1e083f97bf3cf137abd7a"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "sourceRevision": "e31b3829ca4a956056ca1045c3de56387f396a13",
+  "sourceRoot": "/home/ubuntu/code/officeadmin-books",
+  "nonvisualStubs": [
+    "lib/hooks/use-api",
+    "lib/auth-client",
+    "lib/hooks/use-active-org-id",
+    "lib/org/active-org",
+    "lib/hooks/use-org-currency",
+    "lib/hooks/use-document-title",
+    "lib/hooks/use-entity-title",
+    "lib/hooks/use-smart-back",
+    "lib/hooks/use-cross-org-deep-link",
+    "lib/hooks/use-pdf-preview-deep-link",
+    "lib/hooks/use-confirm",
+    "lib/hooks/use-api-mutation",
+    "lib/offline/use-offline-collection",
+    "lib/offline/store",
+    "components/offline/sync-indicator",
+    "components/dashboard/create-drawer",
+    "lib/hooks/use-badges",
+    "lib/hooks/use-badges-realtime",
+    "lib/hooks/use-app-badge-sync",
+    "lib/hooks/use-prefetch-on-hover",
+    "lib/hooks/use-idle-prefetch",
+    "lib/hooks/use-realtime",
+    "lib/hooks/use-deferred-after-paint",
+    "lib/dev-delay",
+    "lib/billing/use-native-purchase-blocked",
+    "components/dashboard/edit-profile-dialog",
+    "components/pdf/pdf-preview-modal",
+    "components/dashboard/send-document-dialog",
+    "components/sales/reconcile-send-dialog",
+    "components/dashboard/file-uploader",
+    "components/dashboard/payment-attachment-viewer",
+    "components/aiva/aiva-status-menu",
+    "components/aiva/aiva-status-deep-link",
+    "components/chat/chat-layer-context",
+    "hooks/use-chat-layer-overlay",
+    "lib/hooks/use-native-read-aloud",
+    "components/messages/link-file-dialog",
+    "components/chat",
+    "lib/messages/autocorrect",
+    "lib/hooks/use-aiva-chat",
+    "lib/hooks/use-cross-org-chats",
+    "lib/hooks/use-messages-realtime",
+    "components/aiva/agent-terminal-panel"
+  ],
+  "method": "Actual imported client UI and CSS. Fictional API fixtures, no production connection.",
+  "screenshots": [
+    {
+      "name": "desktop-aiva",
+      "file": "public/ui/desktop-aiva.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Projects",
+        "Bidding1",
+        "Bid Sent1",
+        "Active1",
+        "AIVA Chat"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nCedar Court | EV Charging\nSouthport Plaza | Commissioning\nHarbor House | Service Upgrade\nNew project\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nProjects\nFilters\nNew Project\nBidding\n1\nPROJECT\tPRIORITY\n\nHarbor House | Service Upgrade\nHarbor House\n\t\nBid Sent\n1\nPROJECT\tPRIORITY\n\nSouthport Plaza | Commissioning\nSouthport Plaza\n\tHigh\nActive\n1\nPROJECT\tPRIORITY\n\nCedar Court | EV Charging\nCedar Court\n\tHigh\nProject totals\nAIVA Chat\nTODAY\n9:38 AM\nWhat is left to close out Cedar Court?\nAIVA\n9:38 AM\n\nThe charging stations are commissioned. The project still needs the inspection sign-off and closeout package.\n\nThe site conversation and project notes agree on those next steps.\n\n9:39 AM\nDraft the customer update for me.\nDelivered\nAIVA\n9:39 AM\n\nDraft for your review. Not sent.\n\nHi Jordan, the six charging stations are commissioned. We are preparing the inspection sign-off and closeout package. We will send those together once the final documentation is ready.",
+      "sha256": "b269858c916730ad2e66605ffbc7fabbb751d01ac82917f4700ca153d72d790a"
+    },
+    {
+      "name": "desktop-aiva-context",
+      "file": "public/ui/desktop-aiva-context.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "interaction": null,
+      "headings": [
+        "Projects",
+        "Bidding1",
+        "Bid Sent1",
+        "Active1",
+        "AIVA Chat"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nCedar Court | EV Charging\nSouthport Plaza | Commissioning\nHarbor House | Service Upgrade\nNew project\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nProjects\nFilters\nNew Project\nBidding\n1\nPROJECT\tPRIORITY\n\nHarbor House | Service Upgrade\nHarbor House\n\t\nBid Sent\n1\nPROJECT\tPRIORITY\n\nSouthport Plaza | Commissioning\nSouthport Plaza\n\tHigh\nActive\n1\nPROJECT\tPRIORITY\n\nCedar Court | EV Charging\nCedar Court\n\tHigh\nProject totals\nAIVA Chat\nTODAY\n9:38 AM\nWhat is left to close out Cedar Court?\nDelivered\nAIVA\n9:38 AM\n\nThe charging stations are commissioned. The project still needs the inspection sign-off and closeout package.\n\nThe site conversation and project notes agree on those next steps.",
+      "sha256": "c4c025ee81cc69943e1bbdb5b6827d1575cc40feee6a9efb0edbeffffa72274a"
+    },
+    {
+      "name": "desktop-dashboard",
+      "file": "public/ui/desktop-dashboard.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "interaction": null,
+      "headings": [
+        "Dashboard",
+        "Rise and shine, Alex",
+        "Recent Entries"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nDashboard\nRise and shine, Alex\n\nHere is what needs your attention today. Bids, commitments, and calendar up top, with the financial picture below.\n\nAccounts\nNew entry\nNew invoice\nContacts\nFOR YOU\n\nNothing urgent right now.\n\nBID ACTIONS\n0\n\nNo bid actions right now.\n\nYOU OWE\n0 open\n\nNothing owed by you.\n\nFrom the commitment ledger. Apple Reminders do not affect this count.\n\nUPCOMING\n\nNothing on the calendar.\n\nREVENUE\n\n$92,500.00\n\nEXPENSES\n\n$66,300.00\n\nNET INCOME\n\n$26,200.00\n\nRECEIVABLES\n\n$35,150.00\n\n3 outstanding\n\nPAYABLES\n\n$8,400.00\n\n1 outstanding\n\nREVENUE VS EXPENSES\nRevenue\n$92,500.00\nExpenses\n$66,300.00\nNet Income\n$26,200.00\n\nTOP EXPENSES\n\nField labor\n$13,200.00\nOffice and administration\n$5,200.00\nVehicles and equipment\n$4,700.00\nAGING SUMMARY\n\nReceivables\n\n$35,150.00\n\nCurrent\n$28,750.00\n1-30 days\n$6,400.00\n31-60 days\n$0.00\n61-90 days\n$0.00\n91+ days\n$0.00\n\nPayables\n\n$8,400.00\n\nCurrent\n$8,400.00\n1-30 days\n$0.00\n31-60 days\n$0.00\n61-90 days\n$0.00\n91+ days\n$0.00\nCASH FLOW FORECAST\n30 days\n60 days\n90 days\nbalanceinflowsoutflows\nOct 18\nOct 25\nNov 1\nNov 8\n$0k\n$9k\n$18k\n$27k\n$36k\n\nExpected In\n\n$76,000.00\n\nExpected Out\n\n$41,000.00\n\nNet Position\n\n$35,000.00\n\nFINANCIAL KPIS\n\n2.4x\n\nCurrent Ratio\n\n2.1x\n\nQuick Ratio\n\n53.3%\n\nGross Margin\n\n28.3%\n\nNet Margin\n\n19d\n\nDSO\n\n12d\n\nDPO\n\nSales Pipeline\nView all\n\n$68,450.00\n\nOpen (4 deals)\n\n$92,500.00\n\nWon (6 deals)\n\n60%\n\nWin rate\n\nRecent Entries\nView all\n#\tDATE\tDESCRIPTION\tSTATUS\tAMOUNT\n1042\t10-12-26\tCedar Court | Customer payment\tPosted\t$18,450.00\n1041\t10-11-26\tMaterials | Charging installation\tPosted\t$4,720.00\n1040\t10-10-26\tNorthline Electric | Field labor\tPosted\t$3,800.00\nRecent Activity\n\nActions like creating invoices will appear here\n\n$0k",
+      "sha256": "760eb441c3739966fcaec19688f6006eb2717839dac1221a4c188762aebb43e8"
+    },
+    {
+      "name": "desktop-dashboard-financial",
+      "file": "public/ui/desktop-dashboard-financial.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "interaction": {
+        "type": "read-only wheel scroll",
+        "deltaY": 540,
+        "scroll": {
+          "window": 0,
+          "elements": [
+            {
+              "tag": "MAIN",
+              "top": 540
+            }
+          ]
+        }
+      },
+      "headings": [
+        "Dashboard",
+        "Rise and shine, Alex",
+        "Recent Entries"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nDashboard\nRise and shine, Alex\n\nHere is what needs your attention today. Bids, commitments, and calendar up top, with the financial picture below.\n\nAccounts\nNew entry\nNew invoice\nContacts\nFOR YOU\n\nNothing urgent right now.\n\nBID ACTIONS\n0\n\nNo bid actions right now.\n\nYOU OWE\n0 open\n\nNothing owed by you.\n\nFrom the commitment ledger. Apple Reminders do not affect this count.\n\nUPCOMING\n\nNothing on the calendar.\n\nREVENUE\n\n$92,500.00\n\nEXPENSES\n\n$66,300.00\n\nNET INCOME\n\n$26,200.00\n\nRECEIVABLES\n\n$35,150.00\n\n3 outstanding\n\nPAYABLES\n\n$8,400.00\n\n1 outstanding\n\nREVENUE VS EXPENSES\nRevenue\n$92,500.00\nExpenses\n$66,300.00\nNet Income\n$26,200.00\n\nTOP EXPENSES\n\nField labor\n$13,200.00\nOffice and administration\n$5,200.00\nVehicles and equipment\n$4,700.00\nAGING SUMMARY\n\nReceivables\n\n$35,150.00\n\nCurrent\n$28,750.00\n1-30 days\n$6,400.00\n31-60 days\n$0.00\n61-90 days\n$0.00\n91+ days\n$0.00\n\nPayables\n\n$8,400.00\n\nCurrent\n$8,400.00\n1-30 days\n$0.00\n31-60 days\n$0.00\n61-90 days\n$0.00\n91+ days\n$0.00\nCASH FLOW FORECAST\n30 days\n60 days\n90 days\nbalanceinflowsoutflows\nOct 18\nOct 25\nNov 1\nNov 8\n$0k\n$9k\n$18k\n$27k\n$36k\n\nExpected In\n\n$76,000.00\n\nExpected Out\n\n$41,000.00\n\nNet Position\n\n$35,000.00\n\nFINANCIAL KPIS\n\n2.4x\n\nCurrent Ratio\n\n2.1x\n\nQuick Ratio\n\n53.3%\n\nGross Margin\n\n28.3%\n\nNet Margin\n\n19d\n\nDSO\n\n12d\n\nDPO\n\nSales Pipeline\nView all\n\n$68,450.00\n\nOpen (4 deals)\n\n$92,500.00\n\nWon (6 deals)\n\n60%\n\nWin rate\n\nRecent Entries\nView all\n#\tDATE\tDESCRIPTION\tSTATUS\tAMOUNT\n1042\t10-12-26\tCedar Court | Customer payment\tPosted\t$18,450.00\n1041\t10-11-26\tMaterials | Charging installation\tPosted\t$4,720.00\n1040\t10-10-26\tNorthline Electric | Field labor\tPosted\t$3,800.00\nRecent Activity\n\nActions like creating invoices will appear here\n\n$0k",
+      "sha256": "a58f358a7d37eb9264c66ef92170e35a7919ca84ba3f571f575f7542f79dbd8d"
+    },
+    {
+      "name": "desktop-estimate",
+      "file": "public/ui/desktop-estimate.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Estimates",
+        "EST-01028"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nEstimates\nNew Estimate\nEST-01028\nAccepted\nConvert to Invoice\nProgress bill\nDeposit\nCreate tasks\nEdit\nGrid\nView\nDownload PDF\nCopy link\nCopy client link\nDuplicate\nSave as template\nAccepted and signed by Jordan Morgan on 10-09-26\n\nCedar Court\n\n100 Example Avenue\n\nLos Angeles, CA 90012\n\nUS\n\nfacilities@example.com\n\nDETAILS\n\nEstimate\nEST-01028\nIssued\nOct 8, 2026\nValid until\nNov 8, 2026\nRef\nCedar Court EV Charging\nSigned by\nJordan Morgan on 10-09-26\nJob\nCedar Court EV Charging\nProject\nCedar Court | EV Charging\nDESCRIPTION\tQTY\tPRICE\tAMOUNT\n\n\nMake-ready infrastructure\n\n\t1\t$7,950.00\t$7,950.00\n\n\nCharging-station installation\n\n\t6\t$1,125.00\t$6,750.00\n\n\nTesting and commissioning\n\n\t1\t$2,400.00\t$2,400.00\n\n\nPermit and inspection coordination\n\n\t1\t$1,350.00\t$1,350.00\nSubtotal\n$18,450.00\nTotal\n$18,450.00\n\nDETAILS\n\nReference\n\nCedar Court EV Charging\n\nNotes\n\nInstall and commission six Level 2 charging stations at Cedar Court. Includes make-ready infrastructure, testing, and closeout documentation.\n\nExclusions\n\n• Utility service upgrades and unforeseen concealed conditions.\n\nDates\n\nOct 8, 2026 · Nov 8, 2026\n\nPDF format\n\nItemized\n\nControls how the customer estimate PDF is presented.\n\nProfit and overhead\n\nIn the unit prices\n\nThe total is the same either way. Only how it is shown changes, including the rate.\n\nBilling schedule\nDeposit up front, then progress draws\nSet up schedule",
+      "sha256": "5275784071fc14e5aeee72cab74f016069ded46af5261b234b69f1dc85cf6feb"
+    },
+    {
+      "name": "desktop-invoice",
+      "file": "public/ui/desktop-invoice.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Sales",
+        "INV-01042"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nSales\nNew Invoice\nINV-01042\npaid\nEdit\nView\nDownload PDF\nCopy link\nCopy client link\nDuplicate\nIssue credit\nRefund\n\nCedar Court\n\n100 Example Avenue\n\nLos Angeles, CA 90012\n\nUS\n\nfacilities@example.com\n\nDETAILS\n\nInvoice\nINV-01042\nIssued\nOct 10, 2026\nDue\nNov 8, 2026\nRef\nCedar Court EV Charging\nJob\nCedar Court EV Charging\nProject\nCedar Court | EV Charging\nDESCRIPTION\tQTY\tPRICE\tAMOUNT\n\n\nMake-ready infrastructure\n\n\t1\t$7,950.00\t$7,950.00\n\n\nCharging-station installation\n\n\t6\t$1,125.00\t$6,750.00\n\n\nTesting and commissioning\n\n\t1\t$2,400.00\t$2,400.00\n\n\nPermit and inspection coordination\n\n\t1\t$1,350.00\t$1,350.00\nSubtotal\n$18,450.00\nTotal\n$18,450.00\n\nNOTES\n\nInstall and commission six Level 2 charging stations at Cedar Court. Includes make-ready infrastructure, testing, and closeout documentation.\n\nPAYMENT STATUS\n\n100%\n\nTotal\n\n$18,450.00\n\nPaid\n\n$18,450.00\n\nDue\n\n$0.00\n\nPAYMENT HISTORY\n\nPMT-00412\nBank Transfer\n\nOct 12, 2026\n\n$18,450.00",
+      "sha256": "2fe92a7067d45f97fe53287a50780e7006bf471a6a1dde02f95a76335caec5a5"
+    },
+    {
+      "name": "desktop-projects",
+      "file": "public/ui/desktop-projects.png",
+      "viewport": [
+        1440,
+        980
+      ],
+      "pixels": [
+        2880,
+        1960
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Projects",
+        "Bidding1",
+        "Bid Sent1",
+        "Active1"
+      ],
+      "topbar": 1,
+      "text": "N\nNorthline Electric\nOwner\nDashboard\nAIVA\nProjects\nCedar Court | EV Charging\nSouthport Plaza | Commissioning\nHarbor House | Service Upgrade\nNew project\nRoadmap\nPhone\nTasks\nContacts\nFINANCIALS\nSales\n12\nBids\nFollow-ups\nPurchases\n4\nAccounting\nTaxes\nOPERATIONS\nTeams\nInventory\nScheduling\nDaily Reports\nSurveys\nLetters\nIssues\nTime\nPayroll\nCRM\nDocuments\nVault\nReports\nTools\nSettings\nHelp\nAL\nAlex Lee\nalex@example.com\nOfficeAdmin\nNorthline Electric\nSearch...\n⌘\nK\nProjects\nFilters\nNew Project\nBidding\n1\nPROJECT\tPRIORITY\n\nHarbor House | Service Upgrade\nHarbor House\n\t\nBid Sent\n1\nPROJECT\tPRIORITY\n\nSouthport Plaza | Commissioning\nSouthport Plaza\n\tHigh\nActive\n1\nPROJECT\tPRIORITY\n\nCedar Court | EV Charging\nCedar Court\n\tHigh\nProject totals",
+      "sha256": "ababc1e945545d3203265c5c25f991a3c926ed8d7a118d992e3bffd8a9311388"
+    },
+    {
+      "name": "mobile-aiva",
+      "file": "public/ui/mobile-aiva.png",
+      "viewport": [
+        402,
+        790
+      ],
+      "pixels": [
+        1206,
+        2370
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Projects",
+        "Bidding1",
+        "Bid Sent1",
+        "Active1",
+        "AIVA Chat"
+      ],
+      "topbar": 1,
+      "text": "AIVA\nChat\nProjects\nFilters\nNew Project\nBidding\n1\nHarbor House | Service Upgrade\nHarbor House\nBid Sent\n1\nSouthport Plaza | Commissioning\nSouthport Plaza\nHigh\nActive\n1\nCedar Court | EV Charging\nCedar Court\nHigh\nProject totals\nAIVA Chat\n\nChat with AIVA, your assistant.\n\nTODAY\n9:38 AM\nWhat is left to close out Cedar Court?\nAIVA\n9:38 AM\n\nThe charging stations are commissioned. The project still needs the inspection sign-off and closeout package.\n\nThe site conversation and project notes agree on those next steps.\n\n9:39 AM\nDraft the customer update for me.\nDelivered\nAIVA\n9:39 AM\n\nDraft for your review. Not sent.\n\nHi Jordan, the six charging stations are commissioned. We are preparing the inspection sign-off and closeout package. We will send those together once the final documentation is ready.",
+      "sha256": "943c94300b83273d0bb3b6ca06c90dc27c392868fd4a86612854a49c3d3c8a6f"
+    },
+    {
+      "name": "mobile-aiva-context",
+      "file": "public/ui/mobile-aiva-context.png",
+      "viewport": [
+        402,
+        790
+      ],
+      "pixels": [
+        1206,
+        2370
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "interaction": null,
+      "headings": [
+        "Projects",
+        "Bidding1",
+        "Bid Sent1",
+        "Active1",
+        "AIVA Chat"
+      ],
+      "topbar": 1,
+      "text": "AIVA\nChat\nProjects\nFilters\nNew Project\nBidding\n1\nHarbor House | Service Upgrade\nHarbor House\nBid Sent\n1\nSouthport Plaza | Commissioning\nSouthport Plaza\nHigh\nActive\n1\nCedar Court | EV Charging\nCedar Court\nHigh\nProject totals\nAIVA Chat\n\nChat with AIVA, your assistant.\n\nTODAY\n9:38 AM\nWhat is left to close out Cedar Court?\nDelivered\nAIVA\n9:38 AM\n\nThe charging stations are commissioned. The project still needs the inspection sign-off and closeout package.\n\nThe site conversation and project notes agree on those next steps.",
+      "sha256": "79e294a8ee673c9a7a6033f975ce604e95d7fecf76ba5d1abb0b9986a1afbddc"
+    },
+    {
+      "name": "mobile-estimate",
+      "file": "public/ui/mobile-estimate.png",
+      "viewport": [
+        402,
+        790
+      ],
+      "pixels": [
+        1206,
+        2370
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Estimates",
+        "EST-01028"
+      ],
+      "topbar": 1,
+      "text": "Estimates\nNew Estimate\nEST-01028\nAccepted\nAccepted and signed by Jordan Morgan on 10-09-26\n\nCedar Court\n\n100 Example Avenue\n\nLos Angeles, CA 90012\n\nUS\n\nfacilities@example.com\n\nDETAILS\n\nEstimate\nEST-01028\nIssued\nOct 8, 2026\nValid until\nNov 8, 2026\nRef\nCedar Court EV Charging\nSigned by\nJordan Morgan on 10-09-26\nJob\nCedar Court EV Charging\nProject\nCedar Court | EV Charging\nMake-ready infrastructure\n$7,950.00\n\n1 × $7,950.00 = $7,950.00\n\nCharging-station installation\n$6,750.00\n\n6 × $1,125.00 = $6,750.00\n\nTesting and commissioning\n$2,400.00\n\n1 × $2,400.00 = $2,400.00\n\nPermit and inspection coordination\n$1,350.00\n\n1 × $1,350.00 = $1,350.00\n\nSubtotal\n$18,450.00\nTotal\n$18,450.00\n\nDETAILS\n\nReference\n\nCedar Court EV Charging\n\nNotes\n\nInstall and commission six Level 2 charging stations at Cedar Court. Includes make-ready infrastructure, testing, and closeout documentation.\n\nExclusions\n\n• Utility service upgrades and unforeseen concealed conditions.\n\nDates\n\nOct 8, 2026 · Nov 8, 2026\n\nPDF format\n\nItemized\n\nControls how the customer estimate PDF is presented.\n\nProfit and overhead\n\nIn the unit prices\n\nThe total is the same either way. Only how it is shown changes, including the rate.\n\nBilling schedule\nDeposit up front, then progress draws\nSet up schedule",
+      "sha256": "e2ae5da39d58f2558f6f743f6d52474d1231270f8b644c83b199c00f1d984cb4"
+    },
+    {
+      "name": "mobile-invoice",
+      "file": "public/ui/mobile-invoice.png",
+      "viewport": [
+        402,
+        790
+      ],
+      "pixels": [
+        1206,
+        2370
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Sales",
+        "INV-01042"
+      ],
+      "topbar": 1,
+      "text": "Sales\nNew Invoice\nINV-01042\npaid\n\nCedar Court\n\n100 Example Avenue\n\nLos Angeles, CA 90012\n\nUS\n\nfacilities@example.com\n\nDETAILS\n\nInvoice\nINV-01042\nIssued\nOct 10, 2026\nDue\nNov 8, 2026\nRef\nCedar Court EV Charging\nJob\nCedar Court EV Charging\nProject\nCedar Court | EV Charging\nMake-ready infrastructure\n$7,950.00\n\n1 × $7,950.00 = $7,950.00\n\nCharging-station installation\n$6,750.00\n\n6 × $1,125.00 = $6,750.00\n\nTesting and commissioning\n$2,400.00\n\n1 × $2,400.00 = $2,400.00\n\nPermit and inspection coordination\n$1,350.00\n\n1 × $1,350.00 = $1,350.00\n\nSubtotal\n$18,450.00\nTotal\n$18,450.00\n\nNOTES\n\nInstall and commission six Level 2 charging stations at Cedar Court. Includes make-ready infrastructure, testing, and closeout documentation.\n\nPAYMENT STATUS\n\n100%\n\nTotal\n\n$18,450.00\n\nPaid\n\n$18,450.00\n\nDue\n\n$0.00\n\nPAYMENT HISTORY\n\nPMT-00412\nBank Transfer\n\nOct 12, 2026\n\n$18,450.00",
+      "sha256": "6a41c6836ae095464c2f4d03a780050e30057d2901e1ef9fe1c8ac3c36c3aa86"
+    },
+    {
+      "name": "mobile-invoice-paid",
+      "file": "public/ui/mobile-invoice-paid.png",
+      "viewport": [
+        402,
+        790
+      ],
+      "pixels": [
+        1206,
+        2370
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "interaction": {
+        "type": "read-only wheel scroll",
+        "deltaY": 590,
+        "scroll": {
+          "window": 0,
+          "elements": [
+            {
+              "tag": "MAIN",
+              "top": 384
+            }
+          ]
+        }
+      },
+      "headings": [
+        "Sales",
+        "INV-01042"
+      ],
+      "topbar": 1,
+      "text": "Sales\nNew Invoice\nINV-01042\npaid\n\nCedar Court\n\n100 Example Avenue\n\nLos Angeles, CA 90012\n\nUS\n\nfacilities@example.com\n\nDETAILS\n\nInvoice\nINV-01042\nIssued\nOct 10, 2026\nDue\nNov 8, 2026\nRef\nCedar Court EV Charging\nJob\nCedar Court EV Charging\nProject\nCedar Court | EV Charging\nMake-ready infrastructure\n$7,950.00\n\n1 × $7,950.00 = $7,950.00\n\nCharging-station installation\n$6,750.00\n\n6 × $1,125.00 = $6,750.00\n\nTesting and commissioning\n$2,400.00\n\n1 × $2,400.00 = $2,400.00\n\nPermit and inspection coordination\n$1,350.00\n\n1 × $1,350.00 = $1,350.00\n\nSubtotal\n$18,450.00\nTotal\n$18,450.00\n\nNOTES\n\nInstall and commission six Level 2 charging stations at Cedar Court. Includes make-ready infrastructure, testing, and closeout documentation.\n\nPAYMENT STATUS\n\n100%\n\nTotal\n\n$18,450.00\n\nPaid\n\n$18,450.00\n\nDue\n\n$0.00\n\nPAYMENT HISTORY\n\nPMT-00412\nBank Transfer\n\nOct 12, 2026\n\n$18,450.00",
+      "sha256": "049f859857955da3baf758b681b27aa1cc90b66862f85fc947e05c3dc80e7713"
+    },
+    {
+      "name": "mobile-projects",
+      "file": "public/ui/mobile-projects.png",
+      "viewport": [
+        402,
+        790
+      ],
+      "pixels": [
+        1206,
+        2370
+      ],
+      "errors": [],
+      "blocked": [],
+      "mutationAttempts": [],
+      "headings": [
+        "Projects",
+        "Bidding1",
+        "Bid Sent1",
+        "Active1"
+      ],
+      "topbar": 1,
+      "text": "Projects\nFilters\nNew Project\nBidding\n1\nHarbor House | Service Upgrade\nHarbor House\nBid Sent\n1\nSouthport Plaza | Commissioning\nSouthport Plaza\nHigh\nActive\n1\nCedar Court | EV Charging\nCedar Court\nHigh\nProject totals",
+      "sha256": "5ea7e3d9dd8adc82368b69b175aa80ffcdc0b4752dc150c5d6634b69aa87ae9b"
+    }
+  ],
+  "liveRecording": false,
+  "fictionalDemoData": true,
+  "realCustomerData": false,
+  "aivaAvailability": "Private preview",
+  "captureDate": "2026-10-14",
+  "network": "Loopback static assets only; API reads resolved in memory, all business mutations rejected"
+}

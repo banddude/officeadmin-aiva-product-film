@@ -1,0 +1,11 @@
+{
+  "duration": 96.0,
+  "sample_rate": 48000,
+  "tempo": 120,
+  "seed": 261014,
+  "stereo": true,
+  "music": "Original synthesis, no recorded samples",
+  "narration_words": 105,
+  "speech_seconds": 35.05716666666667,
+  "pre_master_peak": 0.4862736761569977
+}
