@@ -1,0 +1,16 @@
+{
+  "duration": 90.0,
+  "sampleRate": 48000,
+  "tempo": 126.0,
+  "seed": 261015,
+  "stereo": true,
+  "music": "Original synthesis, no recorded samples",
+  "glassesSnapSecond": 57.03,
+  "blinkSeconds": [
+    58.4,
+    59.5,
+    86.24,
+    87.14
+  ],
+  "preMixPeak": 0.34541189670562744
+}

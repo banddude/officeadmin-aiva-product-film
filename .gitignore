@@ -46,3 +46,30 @@ __pycache__/
 /qa/v3/*.png
 /qa/v3/*.log
 /qa/v3/render-state-*.json
+
+# Version 4 transient render data and lossless audio stems
+/build-v4-*/
+/out/v4/
+/public/audio/v4/*.wav
+/qa/v4/*.png
+/qa/v4/*.log
+/qa/v4/render-state-*.json
+/qa/v4/delivery-*.jpg
+/qa-v4-*.log
+
+# V4 private render resources, editable-source backups and capture intermediates
+/public/fonts
+/.models/.models
+/qa/v4/backups/
+/production/capture4/bundle.js
+/production/capture4/styles.css
+/production/capture4/metafile.json
+/production/capture4/index.html
+/public/audio/v4/*.wav
+/out/v4/
+/build-v4-*/
+/qa/v4/*.png
+/qa/v4/*.log
+/qa/v4/render-state-*.json
+
+/production/capture4/bundle.css

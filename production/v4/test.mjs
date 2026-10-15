@@ -1,0 +1,53 @@
+// Regression checks for the final isolated, fictional V4 film assets.
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const text=p=>fs.readFileSync(p,'utf8');
+const digest=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const results=[];
+function check(name,condition){results.push({name,passed:!!condition});console.log(condition?'PASS':'FAIL',name)}
+const registry=json('qa/v4/dom-registry.json');
+check('Eleven source UI captures, isolated to V4',registry.snapshots.length===11&&registry.snapshots.every(r=>r.file.startsWith('public/ui-dom-v4/')));
+for(const row of registry.snapshots){
+ const data=json(row.file);
+ check(`Exact captured source: ${row.name}`,row.sha256===digest(row.file)&&data.width>0&&data.height>0);
+ check(`No app runtime or font binaries: ${row.name}`,!/<script|javascript:|data:font\//i.test(text(row.file)));
+}
+const projects=json('public/ui-dom-v4/projects.json');
+const rows=projects.targets.filter(t=>t.kind==='row');
+check('Three consistent contractor projects',rows.length===3&&['Juniper Café','Garcia Residence','Cedar Court'].every(n=>rows.some(r=>r.text.includes(n))));
+check('Work-in-progress projects are not mislabeled as unaccepted bids',projects.targets.some(t=>t.kind==='section'&&t.text.startsWith('Active3')));
+const estimate=json('public/ui-dom-v4/estimate.json');
+const amounts=estimate.targets.filter(t=>t.kind==='row').map(t=>Number([...t.text.matchAll(/\$([\d,]+\.\d\d)/g)].at(-1)[1].replaceAll(',','')));
+check('Commercial estimate arithmetic is $20,800',JSON.stringify(amounts)==='[8400,4950,5600,1850]'&&amounts.reduce((a,b)=>a+b,0)===20800);
+const invoice=json('public/ui-dom-v4/invoice.json');
+check('Invoice total, paid and due agree',invoice.targets.some(t=>t.id==='payment'&&t.text==='Payment Status100%Total$20,800.00Paid$20,800.00Due$0.00'));
+const schedule=json('public/ui-dom-v4/schedule.json');
+check('Actual schedule includes panel crew and six shifts',schedule.targets.filter(t=>t.kind==='shift').length===6&&schedule.targets.some(t=>t.id==='shift-3'&&t.text.includes('Garcia Residence')));
+const chat=json('public/ui-dom-v4/aiva.json'),messages=chat.targets.filter(t=>t.kind==='message');
+check('Context answer references all three jobs',messages.some(t=>['Juniper:','Garcia:','Cedar Court:'].every(v=>t.text.includes(v))));
+check('Draft status is explicitly not sent',messages.some(t=>t.id==='message-3'&&t.text.includes('Ready for your review. Nothing sent.')));
+check('Typing matches the captured source messages',messages.some(t=>t.id==='message-0'&&t.text==='What needs my attention today?')&&messages.some(t=>t.id==='message-2'&&t.text==='Draft the updates.'));
+const mark=json('qa/v4/character-provenance.json');
+check('Composed character is pixel-identical to the official mark',mark.staticCompositeMatchesOfficialWithin===0);
+check('All separate character layers retain recorded bytes',Object.entries(mark.files).every(([file,hash])=>digest('public/brand/v4/'+file)===hash));
+const film=text('src/v4-film.tsx'),dom=text('src/v4-dom.tsx');
+check('V4 imports V4 UI, not retargeted V3 data',film.includes("from './v4-dom'")&&!film.includes("from './v3-dom'")&&dom.includes('ui-dom-v4/'));
+check('Glasses remain rigid while the original pupils blink',film.includes("img('eye-left.png',{transform:`scaleY(${blink})`")&&film.includes("img('eye-right.png',{transform:`scaleY(${blink})`")&&film.includes("img('glasses.png')"));
+check('Fixed native chrome stays inside its own canvas',dom.includes("transform:'translateZ(0)'"));
+check('Fictional settlement keeps total constant',dom.includes('[20800,paid,20800-paid]'));
+check('All geometry is driven by frames, not ambient timers',!(/Math\.random\(|setInterval\(|setTimeout\(/.test(film+dom)));
+const cues=json('production/v4/narration.json');
+check('Every AIVA cue says AY-vuh',cues.filter(c=>c.text.includes('AIVA')).length>=2&&cues.filter(c=>c.text.includes('AIVA')).every(c=>c.phonemes.includes('ˈeɪvə')));
+check('EV is spoken as letters',cues.filter(c=>c.text.includes('EV')).every(c=>c.phonemes.includes('ˈiː ˈviː')));
+check('Narration fits its slots without overlap',cues.every((c,i)=>c.end<=90&&c.duration<=c.available&&(i===cues.length-1||c.end<cues[i+1].start)));
+const audio=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json','public/audio/v4/master.m4a'],{encoding:'utf8'}));
+check('90-second stereo AAC master',Math.abs(Number(audio.format.duration)-90)<.05&&audio.streams[0].channels===2&&audio.streams[0].codec_name==='aac');
+check('Both compositions use the same 2,700-frame timeline',film.includes('V4_FRAMES=2700')&&film.includes('V4_FPS=30')&&film.includes('[0,7,18,31,43,55,62,77,84,90]'));
+const blinkTimes=[55+102/30,55+135/30,84+67/30,84+94/30],score=json('qa/v4/score-stats.json');
+check('Blink sounds align within one frame',blinkTimes.every((t,i)=>Math.abs(t-score.blinkSeconds[i])<1/30));
+const passed=results.every(x=>x.passed);
+fs.writeFileSync('qa/v4/source-tests.json',JSON.stringify({passed,checks:results.length,results},null,2)+'\n');
+if(!passed)process.exit(1);
+console.log(`ALL ${results.length} V4 CHECKS PASSED`);

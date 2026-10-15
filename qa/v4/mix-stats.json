@@ -1,0 +1,34 @@
+{
+  "duration": 90.0,
+  "sampleRate": 48000,
+  "channels": 2,
+  "narrationWords": 102,
+  "narrationSeconds": 40.008291666666665,
+  "premasterPeak": 0.49246010184288025,
+  "pass1": {
+    "input_i": "-23.88",
+    "input_tp": "-6.15",
+    "input_lra": "4.20",
+    "input_thresh": "-34.19",
+    "output_i": "-16.09",
+    "output_tp": "-1.50",
+    "output_lra": "4.00",
+    "output_thresh": "-26.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "pass2": {
+    "input_i": "-23.88",
+    "input_tp": "-6.15",
+    "input_lra": "4.20",
+    "input_thresh": "-34.19",
+    "output_i": "-16.02",
+    "output_tp": "-1.50",
+    "output_lra": "4.10",
+    "output_thresh": "-26.30",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "codec": "aac",
+  "bitRate": "313458"
+}

@@ -1,0 +1,72 @@
+{
+  "fictionalData": true,
+  "realUI": true,
+  "snapshots": [
+    {
+      "name": "aiva",
+      "file": "public/ui-dom-v4/aiva.json",
+      "sha256": "28d3cdbfdcd722f654a8f0f946d2336ac1dc7bcaca20b578f6950fc4750f13f4",
+      "bytes": 4691235
+    },
+    {
+      "name": "dashboard",
+      "file": "public/ui-dom-v4/dashboard.json",
+      "sha256": "261930e56a1c405b13adbf6c65be3a7092c869691b595ba2452a29460579687a",
+      "bytes": 5866328
+    },
+    {
+      "name": "estimate",
+      "file": "public/ui-dom-v4/estimate.json",
+      "sha256": "7841ff6900ef4d36e694fde13ac2caabfd88d86bbb0619de480ebbe5bf672ebb",
+      "bytes": 4459373
+    },
+    {
+      "name": "invoice",
+      "file": "public/ui-dom-v4/invoice.json",
+      "sha256": "b3ba98b084792c6b6f11527c0f087dc25a42f7bca12159fb4c4c09c3fc764894",
+      "bytes": 4210386
+    },
+    {
+      "name": "mobile-aiva",
+      "file": "public/ui-dom-v4/mobile-aiva.json",
+      "sha256": "d4805a0bb5c62c90b8d65bc28189980ba6f9fac8f466e3ab6d67bc769edcb871",
+      "bytes": 4768557
+    },
+    {
+      "name": "mobile-estimate",
+      "file": "public/ui-dom-v4/mobile-estimate.json",
+      "sha256": "442fc32d866150fb3b8e40085b08a63922d79f8d3deda5a9d7580870182e40be",
+      "bytes": 2763653
+    },
+    {
+      "name": "mobile-invoice",
+      "file": "public/ui-dom-v4/mobile-invoice.json",
+      "sha256": "a6b2d06f3aa677c1033d32bafb34dfd1f3afb90255a330c24e8de87553a6ec53",
+      "bytes": 2504933
+    },
+    {
+      "name": "mobile-projects",
+      "file": "public/ui-dom-v4/mobile-projects.json",
+      "sha256": "3f199796d680b5281e58dc1225c659ee734f94d5885520bed244ab25b2fceb03",
+      "bytes": 2125346
+    },
+    {
+      "name": "mobile-schedule",
+      "file": "public/ui-dom-v4/mobile-schedule.json",
+      "sha256": "11db7805046aa7a74e5b8b1f9a7fd72e4990cac8fdcb0438c38c0dcd2a2cc5cd",
+      "bytes": 3044540
+    },
+    {
+      "name": "projects",
+      "file": "public/ui-dom-v4/projects.json",
+      "sha256": "c2a478084dfe04c1055ea1027bedf8584b8f41e0f41cb9924279511533001d4d",
+      "bytes": 3791242
+    },
+    {
+      "name": "schedule",
+      "file": "public/ui-dom-v4/schedule.json",
+      "sha256": "7c2fb092d3ece8f5391124e096eb5b23827f9f317c6cd53839117c6664fcd051",
+      "bytes": 4860491
+    }
+  ]
+}

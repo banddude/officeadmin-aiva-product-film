@@ -1,0 +1,26 @@
+{
+  "source": "Official application masks, no newly drawn geometry",
+  "canvas": [
+    1254,
+    1254
+  ],
+  "staticCompositeMatchesOfficialWithin": 0,
+  "pupilOrigins": [
+    [
+      0.379585326953748,
+      0.5940988835725678
+    ],
+    [
+      0.6168261562998405,
+      0.5940988835725678
+    ]
+  ],
+  "files": {
+    "glasses-highlight.png": "3be707a540b85075c6b0d292cff1c6ca61e07781aa6b0b371434e490bc248380",
+    "body.png": "7e07fa54a81d0b25ffe067b523b0ce805d200689bc8dee9e406faaf71dcd8532",
+    "eye-right.png": "6a30f331180a20f1e414d7787915c9c8735b9f6525163f83ca2dab148818889f",
+    "eye-left.png": "7c4907295580503eb03aca20c0e00527840abd651acfe5c7ea32e2742e20fa69",
+    "glasses.png": "537a143fc78698562376d3bafcff27449b372a1ae7153a0f7f121cb2b129067b",
+    "complete.png": "c6fe227bf79ee7957bc1d419521065866d262729e3f1f27fb7eb32bf00bcc692"
+  }
+}

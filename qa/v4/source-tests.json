@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "checks": 44,
+  "results": [
+    {
+      "name": "Eleven source UI captures, isolated to V4",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: aiva",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: aiva",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: dashboard",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: dashboard",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: estimate",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: estimate",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: invoice",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: invoice",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: mobile-aiva",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: mobile-aiva",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: mobile-estimate",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: mobile-estimate",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: mobile-invoice",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: mobile-invoice",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: mobile-projects",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: mobile-projects",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: mobile-schedule",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: mobile-schedule",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: projects",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: projects",
+      "passed": true
+    },
+    {
+      "name": "Exact captured source: schedule",
+      "passed": true
+    },
+    {
+      "name": "No app runtime or font binaries: schedule",
+      "passed": true
+    },
+    {
+      "name": "Three consistent contractor projects",
+      "passed": true
+    },
+    {
+      "name": "Work-in-progress projects are not mislabeled as unaccepted bids",
+      "passed": true
+    },
+    {
+      "name": "Commercial estimate arithmetic is $20,800",
+      "passed": true
+    },
+    {
+      "name": "Invoice total, paid and due agree",
+      "passed": true
+    },
+    {
+      "name": "Actual schedule includes panel crew and six shifts",
+      "passed": true
+    },
+    {
+      "name": "Context answer references all three jobs",
+      "passed": true
+    },
+    {
+      "name": "Draft status is explicitly not sent",
+      "passed": true
+    },
+    {
+      "name": "Typing matches the captured source messages",
+      "passed": true
+    },
+    {
+      "name": "Composed character is pixel-identical to the official mark",
+      "passed": true
+    },
+    {
+      "name": "All separate character layers retain recorded bytes",
+      "passed": true
+    },
+    {
+      "name": "V4 imports V4 UI, not retargeted V3 data",
+      "passed": true
+    },
+    {
+      "name": "Glasses remain rigid while the original pupils blink",
+      "passed": true
+    },
+    {
+      "name": "Fixed native chrome stays inside its own canvas",
+      "passed": true
+    },
+    {
+      "name": "Fictional settlement keeps total constant",
+      "passed": true
+    },
+    {
+      "name": "All geometry is driven by frames, not ambient timers",
+      "passed": true
+    },
+    {
+      "name": "Every AIVA cue says AY-vuh",
+      "passed": true
+    },
+    {
+      "name": "EV is spoken as letters",
+      "passed": true
+    },
+    {
+      "name": "Narration fits its slots without overlap",
+      "passed": true
+    },
+    {
+      "name": "90-second stereo AAC master",
+      "passed": true
+    },
+    {
+      "name": "Both compositions use the same 2,700-frame timeline",
+      "passed": true
+    },
+    {
+      "name": "Blink sounds align within one frame",
+      "passed": true
+    }
+  ]
+}

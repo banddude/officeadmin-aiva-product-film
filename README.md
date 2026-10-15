@@ -1,22 +1,22 @@
-# OfficeAdmin + AIVA
+# OfficeAdmin with AIVA
 
-## Your business. In motion.
+## Three jobs. One business. Keep it moving.
 
-Version 3 is a **90-second UI motion film**, delivered as a 1920 x 1080 widescreen film and a separately composed 1080 x 1920 vertical reel. Both use 30 fps H.264 video and stereo AAC audio.
+**V4 is the full 90-second contractor-story film**, with separately composed widescreen and vertical versions.
 
-[Widescreen film](https://github.com/banddude/officeadmin-aiva-product-film/releases/download/v3.0.0/OfficeAdmin_AIVA_V3_Motion_Film.mp4) · [Vertical reel](https://github.com/banddude/officeadmin-aiva-product-film/releases/download/v3.0.0/OfficeAdmin_AIVA_V3_Motion_Vertical.mp4) · [Release assets](https://github.com/banddude/officeadmin-aiva-product-film/releases/tag/v3.0.0)
+[Watch the widescreen film](https://github.com/banddude/officeadmin-aiva-product-film/releases/download/v4.0.0/OfficeAdmin_AIVA_V4_Contractor_Story_Film.mp4) · [Watch the vertical reel](https://github.com/banddude/officeadmin-aiva-product-film/releases/download/v4.0.0/OfficeAdmin_AIVA_V4_Contractor_Story_Vertical.mp4) · [Release assets](https://github.com/banddude/officeadmin-aiva-product-film/releases/tag/v4.0.0)
 
-### What moves
+The story connects a commercial tenant improvement at Juniper Café, a residential panel upgrade at Garcia Residence, and EV closeout at Cedar Court. It follows an estimate into approval, a crew schedule into the field, an invoice into the books, and a question into a reviewed next step. All company, customer, project, schedule, financial and conversational records are fictional.
 
-The opening assembles the real application's navigation, header, project groups and rows on independent depth planes. The camera selects the Cedar Court project and brings that same row forward into a readable close-up. Estimate lines enter separately and accumulate into the total. The invoice payment bar and values progress together. The mobile interface scrolls within a dimensional phone. Reporting cards assemble, values count up, bars fill and the application's actual chart paths draw. AIVA's native composer types, messages move into place, and response text appears word by word.
+The interface is built from the **actual rendered OfficeAdmin components**, including their DOM, text, SVGs and computed styles, not newly drawn replacement screens. Individual rows, panels, numbers, charts, messages and the composer move independently. This is editorial motion with fixture data, not an authenticated production recording or a promise that the app itself contains these animations.
 
-These are **actual rendered application elements**, not redesigned screens. The exported markup contains the source component DOM, text, SVGs and computed styles. Remotion animates the elements independently in scoped shadow roots. The film uses fictional records and editorial choreography; it is not a recording of production actions or of new built-in app animations.
+AIVA's glasses arrive as one piece while the original pupils blink beneath them. Her separate body, pupil and glasses layers are derived from the supplied app masks. The composed resting pose is pixel-identical to the official mark. The closing character peeks over the OfficeAdmin logo rather than appearing in a side-by-side logo lockup.
 
-The complete official OfficeAdmin and AIVA artwork is retained. The voice uses explicit **AY-vuh** phonemes. The revised original score has a 120 BPM arrangement with scene-specific dynamics, syncopated bass, percussion, a recurring motif and tactile interface sounds. Narration occupies about 20 seconds of the 90-second film.
+The original 120 BPM score includes restrained glasses and blink cues. The narration explicitly uses **AY-vuh**, /ˈeɪvə/, and pronounces EV as the two letters. The 102-word script occupies about 40 seconds of the 90-second film.
 
-## Open and render
+## Open the editable film
 
-Requirements: Node.js 22 or newer, FFmpeg, FFprobe and a compatible Chromium installation. Python 3 is used for optional packaging and delivery validation.
+Node.js 22+, FFmpeg, FFprobe and a compatible Chromium installation are required. Python 3.9+ with Pillow is used by packaging and frame review; the optional audio and character-generation scripts have their own Python dependencies.
 
 ```sh
 npm ci
@@ -24,59 +24,69 @@ npm run fonts
 npm run typecheck
 npm test
 npm run studio
+```
 
+The font setup downloads Inter from its public upstream source. Font binaries are excluded from this repository and the release packages. Normal rendering requires no OfficeAdmin account, customer API, TTS API or private application bundle.
+
+```sh
 npm run render
 npm run render:vertical
 npm run test:delivery
 ```
 
-The font command retrieves Inter from its public upstream repository. Font binaries are not included in Git or the release archives.
+Outputs:
 
-The production renderer creates nine resumable 10-second sections per format. Its cache includes the visual source and asset fingerprints. Completed sections are reused only when their source fingerprint, frame count, dimensions and color tagging match. The final video uses the finished AAC soundtrack without another audio encode.
-
-```sh
-# Render a bounded batch, then safely resume.
-node production/v3/render.mjs landscape --chunks=3
-node production/v3/render.mjs portrait --chunks=3
-
-# Select an installed browser or set rendering concurrency.
-REMOTION_BROWSER=/path/to/chrome REMOTION_CONCURRENCY=3 npm run render
-
-# Inspect chosen frames in both layouts.
-node production/v3/review.mjs 220,370,650,1000,1690,2220,2600
+```text
+out/v4/OfficeAdmin_AIVA_V4_Contractor_Story_Film.mp4
+out/v4/OfficeAdmin_AIVA_V4_Contractor_Story_Vertical.mp4
 ```
 
-The resulting files are `out/v3/OfficeAdmin_AIVA_V3_Motion_Film.mp4` and `out/v3/OfficeAdmin_AIVA_V3_Motion_Vertical.mp4`.
+Both are 90 seconds at 30 fps. Widescreen is 1920 x 1080; vertical is 1080 x 1920. The delivery uses Rec.709 H.264, yuv420p, stereo 48 kHz AAC, and fast-start metadata. The vertical layout is independently authored rather than automatically cropped.
 
-## Editable source
+The renderer resumes nine 10-second sections per format. Cache keys include the visual source, source geometry, brand assets, UI snapshots and font. Each completed section is checked before reuse. The final mux copies the finished soundtrack packets instead of encoding audio again.
 
-`src/v3-film.tsx` contains the full cut, device presentation and separate wide/vertical layouts. `src/v3-assembly-hero.tsx` is the independently tested 6-16 second interface assembly and project-selection scene. `src/v3-dom.tsx` loads the source-authentic elements and applies frame-driven row, value, chart, composer and text animation. `src/v3-index.tsx` registers the four delivery/review compositions.
+```sh
+# Render a bounded batch, then resume with the same command.
+node production/v4/render.mjs landscape --chunks=3
+node production/v4/render.mjs portrait --chunks=3
 
-`public/ui-dom/` contains the rendered UI snapshots, target geometry and independent fragments. These files contain **no application JavaScript, auth state or live customer records**. `public/brand/` retains the original official marks and their documented deterministic preparations. `public/audio/v3/master.m4a` is the final soundtrack used by the film.
+# Optional host overrides.
+REMOTION_BROWSER=/path/to/chrome REMOTION_CONCURRENCY=3 npm run render
 
-`production/v3/score.py`, `narration.py` and `mix.py` reproduce the original score, explicit-pronunciation narration and final mix. The release audio archive contains lossless stems, individual voice cues, captions and production notes. Voice models remain an optional separate setup, as in V1/V2; no person's voice was cloned.
+# Inspect exact frames, in both layouts.
+node production/v4/review.mjs 250,685,850,1030,1440,1752,2040,2220,2640
+```
 
-### Optional UI recapture
+## Source map
 
-Normal film rendering does not require the OfficeAdmin source repository. To recapture after actual application changes, use a compatible private checkout and the existing isolated capture harness:
+`src/v4-film.tsx` contains the cut, camera choreography, wide/vertical layouts, character and device presentation. `src/v4-dom.tsx` loads the real interface elements into isolated shadow roots and animates them by frame. `src/v4-geometry.ts` records their measured source positions and fragment sizes; `production/v4/geometry.py` regenerates that file and its checksum registry. `src/v4-index.tsx` registers the two delivery compositions and their muted review variants.
+
+`public/ui-dom-v4/` contains eleven isolated source captures. They contain no executable application scripts or font binaries. `public/brand/v4/` contains the prepared official character layers; `prepare-character.py` and `qa/v4/character-provenance.json` document and verify their exact composition. `public/audio/v4/master.m4a` is the finished render soundtrack.
+
+The optional capture harness in `production/capture4/` imports real visible client components from a compatible private OfficeAdmin checkout. Data, auth and external-service boundaries resolve to fictional fixtures, outside requests are blocked, and business writes are rejected. The compiled application bundle and generated application CSS are local intermediates and are not published.
 
 ```sh
 OFFICEADMIN_SOURCE=/path/to/officeadmin-books npm run capture:build
 OFFICEADMIN_SOURCE=/path/to/officeadmin-books npm run capture:dom
+python3 production/v4/geometry.py
 ```
 
-The harness imports the real visible client components. Only data/auth/native-service boundaries and unopened dialogs are isolated. It binds to loopback, blocks outside requests and rejects business mutations. `export-dom.mjs` exports the resulting visual tree and strips runtime scripts and handlers. The dashboard's own initial chart animation is allowed to finish before its paths are exported. Compiled private application bundles and generated app CSS remain local intermediates and are excluded from publication.
+Capture source provenance is recorded separately from the film revision. A recapture against a newer app may change geometry and requires new visual review before rendering. The prior V1, V2 and V3 sources and releases remain intact, with explicit `studio:v1`, `studio:v2`, `studio:v3` and corresponding render scripts.
 
-## Accuracy and validation
+## Audio and verification
 
-Cedar Court, Northline Electric, Alex Lee, Jordan Morgan and all records/messages are fictional. The estimate arithmetic totals $18,450. Acceptance, invoicing and payment represent separate points in the demonstration, not an automatic charge after acceptance. The AIVA draft is explicitly unsent and ready for review. AIVA is labeled private preview; the film does not imply universal access to owner-only capabilities.
+`production/v4/narration.py`, `score.py` and `mix.py` generate the preset voice, original score and final mix. `production/audio-requirements.txt` lists the optional audio dependencies. The release stem ZIP preserves the lossless score, narration, raw voice cues, premaster and mastered WAVs, together with captions and scripts. Voice models are optional setup files, not part of this release. No person's voice was cloned.
 
-`production/v3/production-notes.md` documents the editorial map and data boundaries. `qa/v3/dom-registry.json` records every delivered UI snapshot and its hash. Source tests, independent assembly tests, frame reviews, full delivery probes and audio measurements accompany the production. Test results describe the checked properties, not a guarantee of subjective quality or a human listening review.
+`npm test` checks source hashes, the three-job story, estimate arithmetic, invoice balance, schedule data, exact message text, official character identity, pronunciation, audio format and blink timing. `npm run test:delivery` fully decodes both movies and verifies their actual runtime, dimensions, frame count, color metadata, audio identity, loudness, peak headroom and MP4 fast-start layout. Delivered-frame contact sheets and temporal anomaly checks are retained under `qa/v4/`. These tests describe specific verified properties, not a guarantee of subjective quality or a human listening review.
 
-The Photos import helper imports only the finished V3 filenames into a dedicated V3 album on the target Mac. Photos delivery requires a reachable Mac and is separate from rendering or publishing the movies.
+AIVA is identified as private preview. The film does not imply universal access to owner-only features, unsupervised sending, automatic payment after approval, autonomous pricing or guaranteed financial results. The example draft is explicitly not sent. See `production/v4/production-notes.md` for the cut and source boundaries, and `NOTICE.md` for existing model, dependency and brand notices.
 
-## Previous cuts
+## Photos delivery
 
-V1 and V2 remain preserved. Use `npm run studio:v1` or `npm run studio:v2`, and their corresponding render/review commands. `production/v2-readme.md` preserves the previous instructions. Existing source research, feature-boundary notes, asset provenance and notices remain available; their feature snapshots are historical, not a promise of current public availability.
+On the intended Mac, after copying and verifying both movies:
 
-See `NOTICE.md` and the production provenance documents for product-mark, model and dependency notices.
+```sh
+osascript production/v4/import-to-photos.applescript /absolute/path/to/delivery-folder
+```
+
+The helper checks the dedicated `OfficeAdmin + AIVA - V4` album before importing, leaves duplicate checking enabled and verifies both imported filenames and dimensions. Photos delivery is separate from rendering and publishing. It must be verified on the target laptop, not inferred from a successful render.
