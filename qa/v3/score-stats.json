@@ -1,0 +1,65 @@
+{
+  "file": "public/audio/v3/music.wav",
+  "generator": "production/v3/score.py",
+  "seconds": 90,
+  "sample_rate": 48000,
+  "channels": 2,
+  "frames": 4320000,
+  "bpm": 120,
+  "integrated_lufs": -18.0,
+  "true_peak_dbtp": -3.5,
+  "sample_peak_dbfs": -3.6009189661166956,
+  "rms_dbfs": -19.51086138615892,
+  "nonfinite_samples": 0,
+  "clipped_samples": 0,
+  "sha256": "a607a1f194f27d71a6dad22d5ce53b368ea4077154b8f67c911b90e3d9f78e80",
+  "scene_hits": [
+    {
+      "seconds": 0,
+      "event": "cold open"
+    },
+    {
+      "seconds": 6,
+      "event": "first interface build"
+    },
+    {
+      "seconds": 16,
+      "event": "second build"
+    },
+    {
+      "seconds": 29,
+      "event": "approval"
+    },
+    {
+      "seconds": 37,
+      "event": "phone"
+    },
+    {
+      "seconds": 47,
+      "event": "finance"
+    },
+    {
+      "seconds": 58,
+      "event": "AIVA pullback"
+    },
+    {
+      "seconds": 62,
+      "event": "AIVA reconstruction"
+    },
+    {
+      "seconds": 78,
+      "event": "montage"
+    },
+    {
+      "seconds": 84,
+      "event": "resolution"
+    },
+    {
+      "seconds": 90,
+      "event": "tail end"
+    }
+  ],
+  "provenance": "100% original procedural synthesis with seeded NumPy. No samples, pretrained audio, vocals, or external API.",
+  "arrangement": "Eight-chord modal cycle, four syncopated kick/bass variations, variable hats, synthesized layered snare/clap, recurring five-note motif, pad beds, reverse anticipations, hard reveal pullback and six-second cadence.",
+  "limitations": "No human performance or real recorded drum kit; final narration ducking and master belong to parent."
+}

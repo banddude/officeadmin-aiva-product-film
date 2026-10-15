@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "checks": 18,
+  "results": [
+    {
+      "name": "Authentic rendered DOM: projects",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: estimate",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: invoice",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: dashboard",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: aiva",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: mobile-projects",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: mobile-estimate",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: mobile-invoice",
+      "passed": true
+    },
+    {
+      "name": "Authentic rendered DOM: mobile-aiva",
+      "passed": true
+    },
+    {
+      "name": "Independent UI layers exist",
+      "passed": true
+    },
+    {
+      "name": "Source charts completed their initial animation",
+      "passed": true
+    },
+    {
+      "name": "Estimate arithmetic and unchanged line prices",
+      "passed": true
+    },
+    {
+      "name": "Assistant draft explicitly unsent",
+      "passed": true
+    },
+    {
+      "name": "Written brand and explicit AY-vuh synthesis",
+      "passed": true
+    },
+    {
+      "name": "No screenshot-based V3 interfaces",
+      "passed": true
+    },
+    {
+      "name": "Both compositions are 90 seconds",
+      "passed": true
+    },
+    {
+      "name": "Finished soundtrack has stereo audio",
+      "passed": true
+    },
+    {
+      "name": "Encoded audio level and peak",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "index": 0,
+    "start": 0.65,
+    "end": 1.6614583333333335,
+    "text": "Less runaround.",
+    "phonemes": "l\u02c8\u025bs \u0279\u02c8\u028cn\u0250\u0279\u02cca\u028and.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 1.0114583333333333,
+    "file": "audio/v3/vo-00.wav"
+  },
+  {
+    "index": 1,
+    "start": 6.4,
+    "end": 8.801083333333334,
+    "text": "OfficeAdmin. Your business, connected.",
+    "phonemes": "\u02c8\u0251\u02d0f\u026as \u02c8\u00e6dm\u026an. j\u028a\u0279 b\u02c8\u026azn\u0259s, k\u0259n\u02c8\u025bkt\u1d7bd.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 2.4010833333333332,
+    "file": "audio/v3/vo-01.wav"
+  },
+  {
+    "index": 2,
+    "start": 17.0,
+    "end": 19.873791666666666,
+    "text": "Build the estimate. Keep every detail with the work.",
+    "phonemes": "b\u02c8\u026ald \u00f0\u026a \u02c8\u025bst\u1d7bm\u0259t. k\u02c8i\u02d0p \u02c8\u025bv\u0279i di\u02d0t\u02c8e\u026al w\u026a\u00f0\u00f0\u0259 w\u02c8\u025c\u02d0k.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 2.8737916666666665,
+    "file": "audio/v3/vo-02.wav"
+  },
+  {
+    "index": 3,
+    "start": 30.2,
+    "end": 32.291583333333335,
+    "text": "From approved work to a clearer picture.",
+    "phonemes": "f\u0279\u028cm \u0250p\u0279\u02c8u\u02d0vd w\u02c8\u025c\u02d0k t\u028a \u0250 kl\u02c8\u026a\u0279\u025a p\u02c8\u026akt\u0283\u025a.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 2.0915833333333333,
+    "file": "audio/v3/vo-03.wav"
+  },
+  {
+    "index": 4,
+    "start": 40.6,
+    "end": 41.995916666666666,
+    "text": "Wherever work takes you.",
+    "phonemes": "w\u025b\u0279\u02c8\u025bv\u025a w\u02c8\u025c\u02d0k t\u02c8e\u026aks ju\u02d0.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 1.3959166666666667,
+    "file": "audio/v3/vo-04.wav"
+  },
+  {
+    "index": 5,
+    "start": 48.3,
+    "end": 49.469166666666666,
+    "text": "Know where you stand.",
+    "phonemes": "n\u02c8o\u028a w\u02cc\u025b\u0279 ju\u02d0 st\u02c8\u00e6nd.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 1.1691666666666667,
+    "file": "audio/v3/vo-05.wav"
+  },
+  {
+    "index": 6,
+    "start": 58.55,
+    "end": 59.33283333333333,
+    "text": "And AIVA.",
+    "phonemes": "\u00e6nd \u02c8e\u026av\u0259 .",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 0.7828333333333334,
+    "file": "audio/v3/vo-06.wav"
+  },
+  {
+    "index": 7,
+    "start": 63.15,
+    "end": 64.29883333333333,
+    "text": "Ask about your work.",
+    "phonemes": "\u02c8\u00e6sk \u0250b\u02cca\u028at j\u028a\u0279 w\u02c8\u025c\u02d0k.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 1.1488333333333334,
+    "file": "audio/v3/vo-07.wav"
+  },
+  {
+    "index": 8,
+    "start": 71.05,
+    "end": 74.82,
+    "text": "Turn context into a useful next step. Ready for your review.",
+    "phonemes": "t\u02c8\u025c\u02d0n k\u02c8\u0251\u02d0nt\u025bkst \u02cc\u026ant\u028a \u0250 j\u02c8u\u02d0sf\u0259l n\u02c8\u025bkst st\u02c8\u025bp. \u0279\u02c8\u025bdi f\u0254\u02d0\u0279 j\u028a\u0279 \u0279\u1d7bvj\u02c8u\u02d0.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 3.77,
+    "file": "audio/v3/vo-08.wav"
+  },
+  {
+    "index": 9,
+    "start": 84.5,
+    "end": 87.94258333333333,
+    "text": "OfficeAdmin and AIVA. Run the work. Not the runaround.",
+    "phonemes": "\u02c8\u0251\u02d0f\u026as \u02c8\u00e6dm\u026an \u00e6nd \u02c8e\u026av\u0259 . \u0279\u02c8\u028cn \u00f0\u0259 w\u02c8\u025c\u02d0k. n\u02cc\u0251\u02d0t \u00f0\u0259 \u0279\u02c8\u028cn\u0250\u0279\u02cca\u028and.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "duration": 3.4425833333333333,
+    "file": "audio/v3/vo-09.wav"
+  }
+]

@@ -1,0 +1,2116 @@
+[
+  {
+    "tag": "DIV",
+    "slot": "sidebar-inner",
+    "side": "sidebar",
+    "cls": "bg-sidebar group-data-[variant=floating]:border-sidebar-border safe-top safe-bottom safe-left flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm",
+    "rect": [
+      0,
+      0,
+      255,
+      980
+    ],
+    "text": "NNorthline ElectricOwnerDashboardAIVAProjectsRoadmapPhoneTasksContactsFinancialsSales12BidsFollow-upsPurchases4AccountingTaxesOperationsTeamsInventorySchedulingDaily ReportsSurveys",
+    "parent": "fixed inset-y-0 z-10 flex h-svh w-(--sidebar-width) transition-[left,right,width] duration-200 ease-linear left-0 group-data-[collapsible=offcanvas]:left-[calc(var(--sidebar-width)*-1)] group-data-[collapsible=icon]:w-(--sidebar-width-icon) group-data-[side=left]:border-r group-data-[side=right]:border-l"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-header",
+    "side": "header",
+    "cls": "flex flex-col gap-2 p-2",
+    "rect": [
+      0,
+      0,
+      255,
+      58
+    ],
+    "text": "NNorthline ElectricOwner",
+    "parent": "bg-sidebar group-data-[variant=floating]:border-sidebar-border safe-top safe-bottom safe-left flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1 truncate text-[13px] font-medium text-sidebar-accent-foreground",
+    "rect": [
+      51,
+      20,
+      113,
+      19
+    ],
+    "text": "Northline Electric",
+    "parent": "flex w-full items-center gap-2 rounded-lg border border-transparent px-2.5 py-2 text-left transition-colors hover:border-sidebar-border hover:bg-muted data-[state=open]:border-sidebar-border data-[state=open]:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sidebar-ring"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "rounded bg-sidebar-accent px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground",
+    "rect": [
+      172,
+      20,
+      44,
+      18
+    ],
+    "text": "Owner",
+    "parent": "flex w-full items-center gap-2 rounded-lg border border-transparent px-2.5 py-2 text-left transition-colors hover:border-sidebar-border hover:bg-muted data-[state=open]:border-sidebar-border data-[state=open]:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sidebar-ring"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-content",
+    "side": "content",
+    "cls": "flex min-h-0 flex-1 flex-col overflow-auto group-data-[collapsible=icon]:overflow-hidden gap-0 px-2",
+    "rect": [
+      0,
+      58,
+      255,
+      787
+    ],
+    "text": "DashboardAIVAProjectsRoadmapPhoneTasksContactsFinancialsSales12BidsFollow-upsPurchases4AccountingTaxesOperationsTeamsInventorySchedulingDaily ReportsSurveysLettersIssuesTimePayroll",
+    "parent": "bg-sidebar group-data-[variant=floating]:border-sidebar-border safe-top safe-bottom safe-left flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group",
+    "side": "group",
+    "cls": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1",
+    "rect": [
+      8,
+      58,
+      239,
+      234
+    ],
+    "text": "DashboardAIVAProjectsRoadmapPhoneTasksContacts",
+    "parent": "flex min-h-0 flex-1 flex-col overflow-auto group-data-[collapsible=icon]:overflow-hidden gap-0 px-2"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group-content",
+    "side": "group-content",
+    "cls": "w-full text-sm",
+    "rect": [
+      8,
+      62,
+      239,
+      226
+    ],
+    "text": "DashboardAIVAProjectsRoadmapPhoneTasksContacts",
+    "parent": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1"
+  },
+  {
+    "tag": "UL",
+    "slot": "sidebar-menu",
+    "side": "menu",
+    "cls": "flex w-full min-w-0 flex-col gap-0.5",
+    "rect": [
+      8,
+      62,
+      239,
+      226
+    ],
+    "text": "DashboardAIVAProjectsRoadmapPhoneTasksContacts",
+    "parent": "w-full text-sm"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      62,
+      239,
+      31
+    ],
+    "text": "Dashboard",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      68,
+      193,
+      19
+    ],
+    "text": "Dashboard",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      95,
+      239,
+      31
+    ],
+    "text": "AIVA",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      101,
+      193,
+      19
+    ],
+    "text": "AIVA",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative flex items-center",
+    "rect": [
+      8,
+      127,
+      239,
+      31
+    ],
+    "text": "Projects",
+    "parent": ""
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1 text-left",
+    "rect": [
+      44,
+      133,
+      167,
+      19
+    ],
+    "text": "Projects",
+    "parent": "flex min-h-10 flex-1 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      160,
+      239,
+      31
+    ],
+    "text": "Roadmap",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      166,
+      193,
+      19
+    ],
+    "text": "Roadmap",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      192,
+      239,
+      31
+    ],
+    "text": "Phone",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      198,
+      193,
+      19
+    ],
+    "text": "Phone",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      225,
+      239,
+      31
+    ],
+    "text": "Tasks",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      231,
+      193,
+      19
+    ],
+    "text": "Tasks",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      257,
+      239,
+      31
+    ],
+    "text": "Contacts",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      263,
+      193,
+      19
+    ],
+    "text": "Contacts",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group",
+    "side": "group",
+    "cls": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1",
+    "rect": [
+      8,
+      292,
+      239,
+      229
+    ],
+    "text": "FinancialsSales12BidsFollow-upsPurchases4AccountingTaxes",
+    "parent": "flex min-h-0 flex-1 flex-col overflow-auto group-data-[collapsible=icon]:overflow-hidden gap-0 px-2"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group-label",
+    "side": "group-label",
+    "cls": "ring-sidebar-ring flex shrink-0 items-center rounded-md outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 h-7 px-2.5 text-[10.5px] font-semibold uppercase tracking-wider text-sidebar-foreground/40",
+    "rect": [
+      8,
+      296,
+      239,
+      28
+    ],
+    "text": "Financials",
+    "parent": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group-content",
+    "side": "group-content",
+    "cls": "w-full text-sm",
+    "rect": [
+      8,
+      324,
+      239,
+      193
+    ],
+    "text": "Sales12BidsFollow-upsPurchases4AccountingTaxes",
+    "parent": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1"
+  },
+  {
+    "tag": "UL",
+    "slot": "sidebar-menu",
+    "side": "menu",
+    "cls": "flex w-full min-w-0 flex-col gap-0.5",
+    "rect": [
+      8,
+      324,
+      239,
+      193
+    ],
+    "text": "Sales12BidsFollow-upsPurchases4AccountingTaxes",
+    "parent": "w-full text-sm"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      324,
+      239,
+      31
+    ],
+    "text": "Sales12",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      330,
+      162,
+      19
+    ],
+    "text": "Sales",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] bg-sidebar-accent text-sidebar-accent-foreground font-medium"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      357,
+      239,
+      31
+    ],
+    "text": "Bids",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      363,
+      193,
+      19
+    ],
+    "text": "Bids",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      389,
+      239,
+      31
+    ],
+    "text": "Follow-ups",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      395,
+      193,
+      19
+    ],
+    "text": "Follow-ups",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      422,
+      239,
+      31
+    ],
+    "text": "Purchases4",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      428,
+      167,
+      19
+    ],
+    "text": "Purchases",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      454,
+      239,
+      31
+    ],
+    "text": "Accounting",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      460,
+      193,
+      19
+    ],
+    "text": "Accounting",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      487,
+      239,
+      31
+    ],
+    "text": "Taxes",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      493,
+      193,
+      19
+    ],
+    "text": "Taxes",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group",
+    "side": "group",
+    "cls": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1",
+    "rect": [
+      8,
+      521,
+      239,
+      327
+    ],
+    "text": "OperationsTeamsInventorySchedulingDaily ReportsSurveysLettersIssuesTimePayroll",
+    "parent": "flex min-h-0 flex-1 flex-col overflow-auto group-data-[collapsible=icon]:overflow-hidden gap-0 px-2"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group-label",
+    "side": "group-label",
+    "cls": "ring-sidebar-ring flex shrink-0 items-center rounded-md outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 h-7 px-2.5 text-[10.5px] font-semibold uppercase tracking-wider text-sidebar-foreground/40",
+    "rect": [
+      8,
+      525,
+      239,
+      28
+    ],
+    "text": "Operations",
+    "parent": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group-content",
+    "side": "group-content",
+    "cls": "w-full text-sm",
+    "rect": [
+      8,
+      553,
+      239,
+      291
+    ],
+    "text": "TeamsInventorySchedulingDaily ReportsSurveysLettersIssuesTimePayroll",
+    "parent": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1"
+  },
+  {
+    "tag": "UL",
+    "slot": "sidebar-menu",
+    "side": "menu",
+    "cls": "flex w-full min-w-0 flex-col gap-0.5",
+    "rect": [
+      8,
+      553,
+      239,
+      291
+    ],
+    "text": "TeamsInventorySchedulingDaily ReportsSurveysLettersIssuesTimePayroll",
+    "parent": "w-full text-sm"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      553,
+      239,
+      31
+    ],
+    "text": "Teams",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      559,
+      193,
+      19
+    ],
+    "text": "Teams",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      586,
+      239,
+      31
+    ],
+    "text": "Inventory",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      592,
+      193,
+      19
+    ],
+    "text": "Inventory",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      618,
+      239,
+      31
+    ],
+    "text": "Scheduling",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      624,
+      193,
+      19
+    ],
+    "text": "Scheduling",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      651,
+      239,
+      31
+    ],
+    "text": "Daily Reports",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      657,
+      193,
+      19
+    ],
+    "text": "Daily Reports",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      684,
+      239,
+      31
+    ],
+    "text": "Surveys",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      690,
+      193,
+      19
+    ],
+    "text": "Surveys",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      716,
+      239,
+      31
+    ],
+    "text": "Letters",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      722,
+      193,
+      19
+    ],
+    "text": "Letters",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      749,
+      239,
+      31
+    ],
+    "text": "Issues",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      755,
+      193,
+      19
+    ],
+    "text": "Issues",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      781,
+      239,
+      31
+    ],
+    "text": "Time",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      787,
+      193,
+      19
+    ],
+    "text": "Time",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      814,
+      239,
+      31
+    ],
+    "text": "Payroll",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      820,
+      193,
+      19
+    ],
+    "text": "Payroll",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group",
+    "side": "group",
+    "cls": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1",
+    "rect": [
+      8,
+      848,
+      239,
+      169
+    ],
+    "text": "CRMDocumentsVaultReportsTools",
+    "parent": "flex min-h-0 flex-1 flex-col overflow-auto group-data-[collapsible=icon]:overflow-hidden gap-0 px-2"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-group-content",
+    "side": "group-content",
+    "cls": "w-full text-sm",
+    "rect": [
+      8,
+      852,
+      239,
+      161
+    ],
+    "text": "CRMDocumentsVaultReportsTools",
+    "parent": "relative flex w-full min-w-0 flex-col p-2 px-0 py-1"
+  },
+  {
+    "tag": "UL",
+    "slot": "sidebar-menu",
+    "side": "menu",
+    "cls": "flex w-full min-w-0 flex-col gap-0.5",
+    "rect": [
+      8,
+      852,
+      239,
+      161
+    ],
+    "text": "CRMDocumentsVaultReportsTools",
+    "parent": "w-full text-sm"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      852,
+      239,
+      31
+    ],
+    "text": "CRM",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      858,
+      193,
+      19
+    ],
+    "text": "CRM",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      885,
+      239,
+      31
+    ],
+    "text": "Documents",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      891,
+      193,
+      19
+    ],
+    "text": "Documents",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      918,
+      239,
+      31
+    ],
+    "text": "Vault",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      924,
+      193,
+      19
+    ],
+    "text": "Vault",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      950,
+      239,
+      31
+    ],
+    "text": "Reports",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      956,
+      193,
+      19
+    ],
+    "text": "Reports",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      983,
+      239,
+      31
+    ],
+    "text": "Tools",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      989,
+      193,
+      19
+    ],
+    "text": "Tools",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "DIV",
+    "slot": "sidebar-footer",
+    "side": "footer",
+    "cls": "flex flex-col gap-2 p-2 px-2",
+    "rect": [
+      0,
+      845,
+      255,
+      135
+    ],
+    "text": "SettingsHelpALAlex Leealex@example.com",
+    "parent": "bg-sidebar group-data-[variant=floating]:border-sidebar-border safe-top safe-bottom safe-left flex h-full w-full flex-col group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:shadow-sm"
+  },
+  {
+    "tag": "UL",
+    "slot": "sidebar-menu",
+    "side": "menu",
+    "cls": "flex w-full min-w-0 flex-col gap-0.5",
+    "rect": [
+      8,
+      853,
+      239,
+      63
+    ],
+    "text": "SettingsHelp",
+    "parent": "flex flex-col gap-2 p-2 px-2"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      853,
+      239,
+      31
+    ],
+    "text": "Settings",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      859,
+      193,
+      19
+    ],
+    "text": "Settings",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "LI",
+    "slot": "sidebar-menu-item",
+    "side": "menu-item",
+    "cls": "group/menu-item relative",
+    "rect": [
+      8,
+      885,
+      239,
+      31
+    ],
+    "text": "Help",
+    "parent": "flex w-full min-w-0 flex-col gap-0.5"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "flex-1",
+    "rect": [
+      44,
+      891,
+      193,
+      19
+    ],
+    "text": "Help",
+    "parent": "flex min-h-10 items-center gap-2.5 rounded-md px-2.5 py-2 text-[15px] transition-colors sm:min-h-0 sm:py-1.5 sm:text-[13px] text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground"
+  },
+  {
+    "tag": "BUTTON",
+    "slot": "dropdown-menu-trigger",
+    "side": "menu-button",
+    "cls": "peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:size-8! [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-12 text-sm group-data-[collapsible=icon]:p-0! data-[state=open]:bg-sidebar-accent",
+    "rect": [
+      8,
+      924,
+      239,
+      48
+    ],
+    "text": "ALAlex Leealex@example.com",
+    "parent": "flex flex-col gap-2 p-2 px-2"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "truncate text-sm font-medium text-sidebar-accent-foreground",
+    "rect": [
+      52,
+      931,
+      163,
+      20
+    ],
+    "text": "Alex Lee",
+    "parent": "grid flex-1 text-left leading-tight"
+  },
+  {
+    "tag": "HEADER",
+    "slot": null,
+    "side": null,
+    "cls": "@container safe-top sticky top-0 z-30 shrink-0 border-b border-border/40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60",
+    "rect": [
+      256,
+      0,
+      1184,
+      57
+    ],
+    "text": "OfficeAdminNorthline ElectricSearch...⌘K",
+    "parent": "flex h-[100dvh] min-h-[100dvh] min-w-0 flex-1 flex-col"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-[14px] font-semibold tracking-tight hidden @4xl:inline",
+    "rect": [
+      340,
+      18,
+      80,
+      20
+    ],
+    "text": "OfficeAdmin",
+    "parent": "flex items-center gap-2 shrink-0"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "max-w-[140px] truncate",
+    "rect": [
+      1050,
+      19,
+      98,
+      17
+    ],
+    "text": "Northline Electric",
+    "parent": "hidden @4xl:flex items-center gap-1.5 rounded-md bg-muted/40 px-2 py-1 text-[12px] text-muted-foreground"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      1283,
+      20,
+      51,
+      16
+    ],
+    "text": "Search...",
+    "parent": "justify-center whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-transparent shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 rounded-md has-[>svg]:px-2.5 hidden @4xl:flex items-center gap-2 text-muted-foreground text-xs h-7 px-2.5"
+  },
+  {
+    "tag": "H1",
+    "slot": null,
+    "side": null,
+    "cls": "truncate text-sm font-semibold",
+    "rect": [
+      280,
+      87,
+      37,
+      20
+    ],
+    "text": "Sales",
+    "parent": "flex min-w-0 flex-1 items-center gap-2"
+  },
+  {
+    "tag": "H1",
+    "slot": null,
+    "side": null,
+    "cls": "text-lg font-semibold tracking-tight",
+    "rect": [
+      324,
+      129,
+      52,
+      56
+    ],
+    "text": "INV-01042",
+    "parent": "flex flex-wrap items-center gap-2.5 min-w-0"
+  },
+  {
+    "tag": "SPAN",
+    "slot": "badge",
+    "side": null,
+    "cls": "inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden [a&]:hover:bg-accent [a&]:hover:text-accent-foreground border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950 dark:text-emerald-300",
+    "rect": [
+      324,
+      195,
+      43,
+      22
+    ],
+    "text": "paid",
+    "parent": "flex flex-wrap items-center gap-2.5 min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-base font-semibold break-words",
+    "rect": [
+      305,
+      254,
+      531,
+      24
+    ],
+    "text": "Cedar Court",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground break-words",
+    "rect": [
+      305,
+      278,
+      531,
+      16
+    ],
+    "text": "100 Example Avenue",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground break-words",
+    "rect": [
+      305,
+      294,
+      531,
+      16
+    ],
+    "text": "Los Angeles, CA 90012",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground break-words",
+    "rect": [
+      305,
+      310,
+      531,
+      16
+    ],
+    "text": "US",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground break-all",
+    "rect": [
+      323,
+      328,
+      134,
+      16
+    ],
+    "text": "facilities@example.com",
+    "parent": "flex items-center gap-1.5 mt-0.5 min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2",
+    "rect": [
+      860,
+      254,
+      531,
+      16
+    ],
+    "text": "Details",
+    "parent": ""
+  },
+  {
+    "tag": "DT",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      860,
+      278,
+      47,
+      20
+    ],
+    "text": "Invoice",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DD",
+    "slot": null,
+    "side": null,
+    "cls": "font-mono font-medium",
+    "rect": [
+      923,
+      278,
+      468,
+      20
+    ],
+    "text": "INV-01042",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DT",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      860,
+      304,
+      47,
+      20
+    ],
+    "text": "Issued",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DD",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      923,
+      304,
+      468,
+      20
+    ],
+    "text": "Oct 10, 2026",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DT",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      860,
+      330,
+      47,
+      20
+    ],
+    "text": "Due",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DD",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      923,
+      330,
+      468,
+      20
+    ],
+    "text": "Nov 8, 2026",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DT",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      860,
+      356,
+      47,
+      20
+    ],
+    "text": "Ref",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DD",
+    "slot": null,
+    "side": null,
+    "cls": "break-words",
+    "rect": [
+      923,
+      356,
+      468,
+      20
+    ],
+    "text": "Cedar Court EV Charging",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DT",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      860,
+      382,
+      47,
+      20
+    ],
+    "text": "Job",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DD",
+    "slot": null,
+    "side": null,
+    "cls": "break-words",
+    "rect": [
+      923,
+      382,
+      468,
+      20
+    ],
+    "text": "Cedar Court EV Charging",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "DT",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      860,
+      408,
+      47,
+      20
+    ],
+    "text": "Project",
+    "parent": "grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm"
+  },
+  {
+    "tag": "THEAD",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      281,
+      449,
+      1134,
+      37
+    ],
+    "text": "DescriptionQtyPriceAmount",
+    "parent": "w-full text-sm"
+  },
+  {
+    "tag": "TR",
+    "slot": null,
+    "side": null,
+    "cls": "border-b bg-muted/20",
+    "rect": [
+      281,
+      449,
+      1134,
+      37
+    ],
+    "text": "DescriptionQtyPriceAmount",
+    "parent": ""
+  },
+  {
+    "tag": "TH",
+    "slot": null,
+    "side": null,
+    "cls": "px-6 py-2.5 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground",
+    "rect": [
+      281,
+      449,
+      823,
+      37
+    ],
+    "text": "Description",
+    "parent": "border-b bg-muted/20"
+  },
+  {
+    "tag": "TH",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-2.5 text-right text-xs font-semibold uppercase tracking-wide text-muted-foreground w-20",
+    "rect": [
+      1104,
+      449,
+      80,
+      37
+    ],
+    "text": "Qty",
+    "parent": "border-b bg-muted/20"
+  },
+  {
+    "tag": "TH",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-2.5 text-right text-xs font-semibold uppercase tracking-wide text-muted-foreground w-28",
+    "rect": [
+      1184,
+      449,
+      112,
+      37
+    ],
+    "text": "Price",
+    "parent": "border-b bg-muted/20"
+  },
+  {
+    "tag": "TH",
+    "slot": null,
+    "side": null,
+    "cls": "px-6 py-2.5 text-right text-xs font-semibold uppercase tracking-wide text-muted-foreground w-28",
+    "rect": [
+      1296,
+      449,
+      119,
+      37
+    ],
+    "text": "Amount",
+    "parent": "border-b bg-muted/20"
+  },
+  {
+    "tag": "TBODY",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      281,
+      486,
+      1134,
+      180
+    ],
+    "text": "Make-ready infrastructure1$7,950.00$7,950.00Charging-station installation6$1,125.00$6,750.00Testing and commissioning1$2,400.00$2,400.00Permit and inspection coordination1$1,350.00",
+    "parent": "w-full text-sm"
+  },
+  {
+    "tag": "TR",
+    "slot": null,
+    "side": null,
+    "cls": "border-b border-dashed",
+    "rect": [
+      281,
+      486,
+      1134,
+      45
+    ],
+    "text": "Make-ready infrastructure1$7,950.00$7,950.00",
+    "parent": ""
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      305,
+      498,
+      775,
+      20
+    ],
+    "text": "Make-ready infrastructure",
+    "parent": "px-6 py-3"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums",
+    "rect": [
+      1104,
+      486,
+      80,
+      45
+    ],
+    "text": "1",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums text-muted-foreground",
+    "rect": [
+      1184,
+      486,
+      112,
+      45
+    ],
+    "text": "$7,950.00",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-6 py-3 text-right font-mono tabular-nums font-medium",
+    "rect": [
+      1296,
+      486,
+      119,
+      45
+    ],
+    "text": "$7,950.00",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TR",
+    "slot": null,
+    "side": null,
+    "cls": "border-b border-dashed",
+    "rect": [
+      281,
+      531,
+      1134,
+      45
+    ],
+    "text": "Charging-station installation6$1,125.00$6,750.00",
+    "parent": ""
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      305,
+      543,
+      775,
+      20
+    ],
+    "text": "Charging-station installation",
+    "parent": "px-6 py-3"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums",
+    "rect": [
+      1104,
+      531,
+      80,
+      45
+    ],
+    "text": "6",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums text-muted-foreground",
+    "rect": [
+      1184,
+      531,
+      112,
+      45
+    ],
+    "text": "$1,125.00",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-6 py-3 text-right font-mono tabular-nums font-medium",
+    "rect": [
+      1296,
+      531,
+      119,
+      45
+    ],
+    "text": "$6,750.00",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TR",
+    "slot": null,
+    "side": null,
+    "cls": "border-b border-dashed",
+    "rect": [
+      281,
+      576,
+      1134,
+      45
+    ],
+    "text": "Testing and commissioning1$2,400.00$2,400.00",
+    "parent": ""
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      305,
+      588,
+      775,
+      20
+    ],
+    "text": "Testing and commissioning",
+    "parent": "px-6 py-3"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums",
+    "rect": [
+      1104,
+      576,
+      80,
+      45
+    ],
+    "text": "1",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums text-muted-foreground",
+    "rect": [
+      1184,
+      576,
+      112,
+      45
+    ],
+    "text": "$2,400.00",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-6 py-3 text-right font-mono tabular-nums font-medium",
+    "rect": [
+      1296,
+      576,
+      119,
+      45
+    ],
+    "text": "$2,400.00",
+    "parent": "border-b border-dashed"
+  },
+  {
+    "tag": "TR",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      281,
+      621,
+      1134,
+      45
+    ],
+    "text": "Permit and inspection coordination1$1,350.00$1,350.00",
+    "parent": ""
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "",
+    "rect": [
+      305,
+      633,
+      775,
+      20
+    ],
+    "text": "Permit and inspection coordination",
+    "parent": "px-6 py-3"
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums",
+    "rect": [
+      1104,
+      621,
+      80,
+      45
+    ],
+    "text": "1",
+    "parent": ""
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-4 py-3 text-right font-mono tabular-nums text-muted-foreground",
+    "rect": [
+      1184,
+      621,
+      112,
+      45
+    ],
+    "text": "$1,350.00",
+    "parent": ""
+  },
+  {
+    "tag": "TD",
+    "slot": null,
+    "side": null,
+    "cls": "px-6 py-3 text-right font-mono tabular-nums font-medium",
+    "rect": [
+      1296,
+      621,
+      119,
+      45
+    ],
+    "text": "$1,350.00",
+    "parent": ""
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-muted-foreground",
+    "rect": [
+      1071,
+      682,
+      55,
+      20
+    ],
+    "text": "Subtotal",
+    "parent": "flex justify-between text-sm"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "font-mono tabular-nums",
+    "rect": [
+      1311,
+      682,
+      80,
+      20
+    ],
+    "text": "$18,450.00",
+    "parent": "flex justify-between text-sm"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-base font-semibold",
+    "rect": [
+      1071,
+      715,
+      38,
+      24
+    ],
+    "text": "Total",
+    "parent": "flex items-baseline justify-between"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-lg font-bold font-mono tabular-nums",
+    "rect": [
+      1288,
+      713,
+      103,
+      28
+    ],
+    "text": "$18,450.00",
+    "parent": "flex items-baseline justify-between"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1",
+    "rect": [
+      305,
+      774,
+      1086,
+      16
+    ],
+    "text": "Notes",
+    "parent": "border-t px-4 py-3 sm:px-6 sm:py-4"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-sm whitespace-pre-wrap break-words",
+    "rect": [
+      305,
+      794,
+      1086,
+      20
+    ],
+    "text": "Install and commission six Level 2 charging stations at Cedar Court. Includes make-ready infrastructure, testing, and closeout documentation.",
+    "parent": "border-t px-4 py-3 sm:px-6 sm:py-4"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs font-semibold uppercase tracking-wide text-muted-foreground",
+    "rect": [
+      301,
+      868,
+      113,
+      16
+    ],
+    "text": "Payment Status",
+    "parent": "flex items-center justify-between mb-4"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs font-mono text-muted-foreground",
+    "rect": [
+      1363,
+      868,
+      32,
+      16
+    ],
+    "text": "100%",
+    "parent": "flex items-center justify-between mb-4"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground",
+    "rect": [
+      301,
+      926,
+      357,
+      16
+    ],
+    "text": "Total",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs sm:text-sm font-mono font-semibold tabular-nums mt-0.5 break-words",
+    "rect": [
+      301,
+      944,
+      357,
+      20
+    ],
+    "text": "$18,450.00",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground",
+    "rect": [
+      670,
+      926,
+      357,
+      16
+    ],
+    "text": "Paid",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs sm:text-sm font-mono font-semibold tabular-nums text-sky-600 mt-0.5 break-words",
+    "rect": [
+      670,
+      944,
+      357,
+      20
+    ],
+    "text": "$18,450.00",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground",
+    "rect": [
+      1038,
+      926,
+      357,
+      16
+    ],
+    "text": "Due",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs sm:text-sm font-mono font-semibold tabular-nums text-amber-600 mt-0.5 break-words",
+    "rect": [
+      1038,
+      944,
+      357,
+      20
+    ],
+    "text": "$0.00",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs font-semibold uppercase tracking-wide text-muted-foreground",
+    "rect": [
+      323,
+      1014,
+      119,
+      16
+    ],
+    "text": "Payment History",
+    "parent": "flex items-center gap-2 border-b bg-muted/30 px-5 py-3"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-sm font-mono font-medium",
+    "rect": [
+      345,
+      1055,
+      78,
+      20
+    ],
+    "text": "PMT-00412",
+    "parent": "flex items-center gap-2"
+  },
+  {
+    "tag": "SPAN",
+    "slot": "badge",
+    "side": null,
+    "cls": "inline-flex items-center justify-center rounded-full border font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-border text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground text-xs px-1.5 py-0",
+    "rect": [
+      431,
+      1056,
+      94,
+      18
+    ],
+    "text": "Bank Transfer",
+    "parent": "flex items-center gap-2"
+  },
+  {
+    "tag": "P",
+    "slot": null,
+    "side": null,
+    "cls": "text-xs text-muted-foreground mt-0.5",
+    "rect": [
+      345,
+      1077,
+      180,
+      16
+    ],
+    "text": "Oct 12, 2026",
+    "parent": "min-w-0"
+  },
+  {
+    "tag": "SPAN",
+    "slot": null,
+    "side": null,
+    "cls": "text-sm font-mono font-semibold text-sky-600 shrink-0",
+    "rect": [
+      1318,
+      1064,
+      77,
+      20
+    ],
+    "text": "$18,450.00",
+    "parent": "flex items-center justify-between px-5 py-3"
+  }
+]

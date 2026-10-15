@@ -1,0 +1,98 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "All camera samples finite and within positive scale/opacity bounds",
+      "passed": true
+    },
+    {
+      "name": "Settled app receives a real, motionless reading hold",
+      "passed": true
+    },
+    {
+      "name": "Easing clamps exactly and never overshoots",
+      "passed": true
+    },
+    {
+      "name": "Camera path has no discontinuous jumps at editorial boundaries",
+      "passed": true
+    },
+    {
+      "name": "Timebase is deterministic at 30 and 60 fps",
+      "passed": true
+    },
+    {
+      "name": "Exact source fragments and geometry exist",
+      "passed": true
+    },
+    {
+      "name": "Snapshot contains no application scripts or remote asset loads",
+      "passed": true
+    },
+    {
+      "name": "Selected row overlay is anchored to the real screen location before lifting",
+      "passed": true
+    }
+  ],
+  "source_snapshot_sha256": "0aa0e35179f455d6d9a447de5ea03b772155dbea51d647e5520e6c63d679e3d8",
+  "module_sha256": "7a2ec9b9c323a0d1ad1963c1eb717b3d72a249abe6d0b4cdc5c1347e462a2886",
+  "timeline": [
+    {
+      "frame": 0,
+      "seconds": 6,
+      "event": "Cut into separated, source-authentic interface layers"
+    },
+    {
+      "frame": 15,
+      "seconds": 6.5,
+      "event": "Navigation and header lock onto the workspace"
+    },
+    {
+      "frame": 45,
+      "seconds": 7.5,
+      "event": "Project groups arrive on independent depth planes"
+    },
+    {
+      "frame": 75,
+      "seconds": 8.5,
+      "event": "Rows seat inside their corresponding groups"
+    },
+    {
+      "frame": 114,
+      "seconds": 9.8,
+      "event": "All layers settle into the real application layout"
+    },
+    {
+      "frame": 145,
+      "seconds": 10.833333,
+      "event": "Deliberate camera push to the active project"
+    },
+    {
+      "frame": 189,
+      "seconds": 12.3,
+      "event": "Cursor selects the same fictional Cedar Court project"
+    },
+    {
+      "frame": 211,
+      "seconds": 13.033333,
+      "event": "Selected real project row lifts out of its exact screen position"
+    },
+    {
+      "frame": 254,
+      "seconds": 14.466667,
+      "event": "Readable project detail hold"
+    },
+    {
+      "frame": 286,
+      "seconds": 15.533333,
+      "event": "Optional match-cut exit into next scene"
+    }
+  ],
+  "provenance": "Source-authentic frozen DOM; fictional demo records; no live app, customer, auth or service access.",
+  "visual_limitations": [
+    "Editorial layer assembly and selection, not a live screen recording.",
+    "Landscape overview crops the source viewport vertically to avoid unused lower space.",
+    "This module covers only film seconds 6-16. No device modelling or full-film narration mix is included."
+  ]
+}

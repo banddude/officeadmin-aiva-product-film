@@ -34,8 +34,15 @@ public/fonts/
 /qa/v2/render-state-*.json
 /qa/v2/landscape-*.png
 /qa/v2/portrait-*.png
-
 /production/v2-delivery-polish.py
 
 __pycache__/
 *.pyc
+
+# Version 3 transient render data and raw audio stems
+/build-v3-*/
+/out/v3/
+/public/audio/v3/*.wav
+/qa/v3/*.png
+/qa/v3/*.log
+/qa/v3/render-state-*.json

@@ -1,0 +1,15 @@
+{
+  "duration": 90,
+  "sampleRate": 48000,
+  "channels": 2,
+  "encodedIntegratedLufs": -16.05,
+  "encodedTruePeakDbtp": -1.47,
+  "speechSeconds": 20.08725,
+  "narrationCues": 10,
+  "musicDuckingDb": -6.56,
+  "voice": "Kokoro af_heart preset, explicit AY-vuh phonemes",
+  "music": "Original V3 procedural score",
+  "soundEffects": "Original oscillator/noise synthesis synchronized to UI",
+  "noClipping": true,
+  "humanListeningReview": false
+}
