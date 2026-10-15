@@ -1,0 +1,63 @@
+Remotion root directory: /tmp/officeadmin-product-film-20261014
+No config file loaded.
+Checking if src/smoke.tsx is the entry file
+Entry point = /tmp/officeadmin-product-film-20261014/src/smoke.tsx (argument passed - found in cwd)
+Ensuring browser executable
+Ensured browser is available.
+[openBrowser()] Opening browser: gl = null, executable = /snap/bin/chromium, enableMultiProcessOnLinux = true
+Available memory: 18421.14 MiB (/proc/meminfo MemAvailable)
+Using setpriv --pdeathsig SIGKILL so the browser is killed if the Node parent process dies (Linux).
+Bundling 6%
+Bundling 21%
+Bundling 32%
+Bundling 43%
+Bundling 54%
+[chrome] [2129811:2129811:1014/195452.610644:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[2129811:2130081:1014/195452.610927:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2129811:2129811:1014/195452.611082:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[2129811:2129811:1014/195452.631618:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[2129811:2130081:1014/195452.632342:ERROR:dbus/bus.cc:405] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[2129811:2129811:1014/195452.685968:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type:
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+[chrome] [2129811:2130083:1014/195457.887241:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[2129811:2130083:1014/195457.887618:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[2129811:2130083:1014/195457.898049:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+Bundling 98%
+Bundling 100%
+Bundling done in 24835ms
+Copying done in 0ms
+Getting composition
+Bundled under /tmp/remotion-webpack-bundle-xqjvBi
+⚡️ Cached bundle. Subsequent renders will be faster.
+Created directory for temporary files /tmp/remotion-v4.0.535-assets2uizfkxyzc
+Available memory: 17460.79 MiB (/proc/meminfo MemAvailable)
+[Tab 0, delayRender()] "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 1ms
+[Tab 0, delayRender()] "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 34ms
+[selectComposition()] Running calculateMetadata()...
+[Tab 0, delayRender()] "Running the calculateMetadata() function for composition Smoke" handle was cleared after 0ms
+[selectComposition()] calculateMetadata() took 6ms
+Composition = Smoke (Passed as argument)
+Format = png (Out name extension)
+Output = qa/smoke.png
+Rendered 0/1
+Rendered 0/1
+Available memory: 17457.85 MiB (/proc/meminfo MemAvailable)
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 1/1
++                    qa/smoke.png
+Cleaning up...
+Cleanup job "Delete /tmp/remotion-webpack-bundle-xqjvBi" done
+Cleanup job "Close server" done
+Cleanup job "Cleanup bundle" done
+Received SIGTERM signal. Killing browser process
+Trying to kill browser process group -2129811
+Cleanup job "Close browser" done
+Cleanup done in 16ms

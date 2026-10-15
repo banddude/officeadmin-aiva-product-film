@@ -1,0 +1,11 @@
+import React from 'react';
+import {registerRoot,Composition,Sequence,AbsoluteFill,Audio,staticFile} from 'remotion';
+import {useFont} from './design';
+import {Intro,Hero,Hub,Takeoff} from './scenes-core';
+import {Proposal,Field,Books} from './scenes-operations';
+import {AivaHero,Listen,Act,Connected,Payoff,End} from './scenes-aiva';
+export const FPS=30;export const DURATION=3360;
+export const scenes=[{name:'The moving parts',component:Intro,frames:210},{name:'Meet OfficeAdmin',component:Hero,frames:240},{name:'One job, every detail',component:Hub,frames:270},{name:'Plans to pricing',component:Takeoff,frames:300},{name:'Customer approval',component:Proposal,frames:270},{name:'From office to field',component:Field,frames:270},{name:'The numbers',component:Books,frames:270},{name:'Meet AIVA',component:AivaHero,frames:240},{name:'Conversation to action',component:Listen,frames:300},{name:'Context, then action',component:Act,frames:300},{name:'Connected',component:Connected,frames:270},{name:'The payoff',component:Payoff,frames:210},{name:'OfficeAdmin + AIVA',component:End,frames:210}];
+const Film=({sound=true}:{sound?:boolean})=>{useFont();let start=0;return <AbsoluteFill style={{background:'#080c14',fontFamily:'FilmInter, Inter, Arial, sans-serif',WebkitFontSmoothing:'antialiased',fontVariantNumeric:'tabular-nums'}}><style>{`*{box-sizing:border-box}body{margin:0}svg{flex-shrink:0}button{font:inherit}`}</style>{scenes.map((scene,i)=>{const from=start;start+=scene.frames;const Comp=scene.component;return <Sequence key={scene.name} name={scene.name} from={from} durationInFrames={scene.frames+(i===scenes.length-1?0:14)}><Comp/></Sequence>})}{sound&&<Audio src={staticFile('audio/master.wav')}/>}</AbsoluteFill>};
+const Root=()=> <><Composition id="OfficeAdminFilm" component={Film} width={1920} height={1080} fps={FPS} durationInFrames={DURATION} defaultProps={{sound:true}}/><Composition id="VisualReview" component={Film} width={1920} height={1080} fps={FPS} durationInFrames={DURATION} defaultProps={{sound:false}}/></>;
+registerRoot(Root);

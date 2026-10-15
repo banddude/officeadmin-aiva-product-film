@@ -1,0 +1,17 @@
+# Dependencies, virtualenvs, and transient webpack outputs
+node_modules/
+.voice/
+build/
+build-final/
+# Voice weights are distributed in a release bundle instead of oversized git blobs.
+.models/*.onnx
+.models/*.bin
+# Fetched fonts are downloaded from upstream on demand.
+public/fonts/
+# Local secrets and editor files, never publish.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store

@@ -1,0 +1,548 @@
+[
+  {
+    "key": "dashboard_overview",
+    "label": "Dashboard overview",
+    "description": "The org landing dashboard with KPIs and widgets (/dashboard). Shipped core.",
+    "group": "Core",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "global_search",
+    "label": "Global search",
+    "description": "App-wide command palette search across records and pages. Shipped core.",
+    "group": "Core",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "notifications",
+    "label": "Notifications",
+    "description": "Notification center, bell badges, and push delivery (/notifications). Shipped core.",
+    "group": "Core",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "documents",
+    "label": "Documents",
+    "description": "Org file manager with role-scoped folder visibility (/documents). Shipped core.",
+    "group": "Core",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "aiva_chat",
+    "label": "AIVA chat",
+    "description": "Canonical AIVA conversation (/aiva/chat) with the nested CAO/tmux Live Session (/aiva/session). Owner cockpit.",
+    "group": "AIVA",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "aiva_conversations",
+    "label": "Voice conversations",
+    "description": "Voice transcripts with speaker ID, the recorder, people directory, and contact merges (/aiva/conversations, /aiva/record, /aiva/people).",
+    "group": "AIVA",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "aiva_action_items",
+    "label": "Action items & drafts",
+    "description": "AI-extracted action items plus the reply-draft review queue (/aiva/action-items, /aiva/drafts).",
+    "group": "AIVA",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "aiva_tasks",
+    "label": "Tasks",
+    "description": "The owner task manager fed by AIVA, a tab in the AIVA strip (/tasks).",
+    "group": "AIVA",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "business_phone",
+    "label": "Business phone",
+    "description": "WebRTC dialer on the business line with history and favorites (/phone). Telephony carries per-line cost.",
+    "group": "Phone & Messages",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "phone_voicemail",
+    "label": "Voicemail",
+    "description": "Voicemail inbox with transcription and unread badges (/phone/voicemail).",
+    "group": "Phone & Messages",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "business_texts",
+    "label": "Business texts (SMS)",
+    "description": "Business-line SMS in the unified Messages UI (/aiva/messages, /messages/aiva). SMS carries per-message cost.",
+    "group": "Phone & Messages",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "team_chat",
+    "label": "Team chat",
+    "description": "Live team messaging over websockets (/messages/team). REVIEW: offer to tenant orgs?",
+    "group": "Phone & Messages",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "email_calendar",
+    "label": "Email & calendar (owner)",
+    "description": "The owner Gmail mailbox and read-only Apple calendars (/email, /calendar). Single-mailbox data, permanently owner-scoped.",
+    "group": "Phone & Messages",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "in_app_video_calls",
+    "label": "In-app video calls",
+    "description": "In-app video calls with recording + transcription, needs scoping (#1133).",
+    "group": "Phone & Messages",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "job_costing",
+    "label": "Project hub",
+    "description": "The project hub itself: overview, files, notes, team, related activity, settings (/projects). Shipped core.",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "projects_tasks",
+    "label": "Project tasks",
+    "description": "Per-project task board with due dates and overdue badges (/projects/[id]/tasks).",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "projects_milestones",
+    "label": "Milestones",
+    "description": "Per-project milestone tracking (/projects/[id]/milestones).",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "projects_punch_list",
+    "label": "Punch list",
+    "description": "Closeout punch list driving a job to done and final billing (#824) (/projects/[id]/punch-list).",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "projects_change_orders",
+    "label": "Change orders",
+    "description": "Change-order lifecycle incl. client signing links (/projects/[id]/change-orders, /sign/co).",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "projects_costing",
+    "label": "Job costing detail",
+    "description": "Job costs and margins, the Costing tab (supervisor+) (/projects/[id]/costing).",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "daily_reports",
+    "label": "Daily reports",
+    "description": "Field daily logging, org-wide and per project (/daily-reports, /projects/[id]/daily-reports).",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "project_captures",
+    "label": "Field captures",
+    "description": "Capture feed: photos/receipts/docs stamped who/when/where (#1201). OCR inside it stays behind receipts_ocr_capture.",
+    "group": "Projects",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "project_status_pass",
+    "label": "Nightly project-status pass",
+    "description": "Nightly LLM pass that rewrites each job's status, who-owes-what-next line, and notes from the last 24h of email/messages/calls/documents (#1924). Reads and writes the record only; never sends anything. Alpha while the conclusions are being checked against reality.",
+    "group": "Projects",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "takeoff_plans",
+    "label": "Takeoff (Plans)",
+    "description": "Measure and count from a plan set to build an estimate (#622). Shipped.",
+    "group": "Field Tools",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "lidar_scan",
+    "label": "LiDAR / MagicPlan 3D scan",
+    "description": "Capture a room/site with the iPhone LiDAR scanner and export a floor plan (#1099/#1140).",
+    "group": "Field Tools",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "splat_live_streaming",
+    "label": "Live splat streaming",
+    "description": "Progressive real-time rendering of a Gaussian splat as the laptop reconstructs it, streamed over the realtime channel (#202). Falls back to the finished-file viewer if the stream drops.",
+    "group": "Field Tools",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "receipts_ocr_capture",
+    "label": "Receipts & OCR capture",
+    "description": "Field capture OCR: snap a receipt/document and auto-extract line items for review (#913-#917).",
+    "group": "Field Tools",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "site_plan_automation",
+    "label": "Site-plan / single-line automation",
+    "description": "Automated site-plan + single-line-diagram generation, experimental (#1138/#1098).",
+    "group": "Field Tools",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "plan_markup_alpha",
+    "label": "Plan markup (alpha)",
+    "description": "In-house plan markup over takeoff plan PDFs: draw / highlight / stamp plus calibrated measure (distance / area), rendered through the shared pdf.js viewer with a Konva overlay and persisted per plan file. Alpha; #1511 Phase 1.",
+    "group": "Field Tools",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "takeoff_ai_assist_alpha",
+    "label": "AI visual-takeoff assist (alpha)",
+    "description": "Two ways to get DRAFT device counts off a plan sheet, both reviewed row by row and neither ever auto-committed. (1) Crop a region in the markup viewer and get counts back. (2) The two-step fixture takeoff: build a fixture list by reading the plan set's own schedule (searched across every sheet, since the schedule is usually its own sheet), approve that list, then find exactly those types on any page. Accepted counts land as visible marks on the plan. Runs through the Codex CLI on the host using the platform owner's ChatGPT auth, never an API key, with gpt-5.6-luna at max reasoning by default; it is additionally hard-gated on isSiteAdmin and is Mike-only until a multi-tenant auth story exists. Alpha; #1545.",
+    "group": "Field Tools",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "single_line_diagram_builder",
+    "label": "Single-line diagram builder",
+    "description": "Permit-ready electrical one-line diagram builder for the service chain (utility -> meter/main -> panels -> loads) with E/N tags and a license-block PDF export. The manual editor; distinct from the automated site_plan_automation flag. Field ask (Zak, 7/16).",
+    "group": "Field Tools",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "offline_mode",
+    "label": "Offline-first field mode",
+    "description": "Work jobs with no signal and sync when back online. Ship to beta first, then prod (#1199).",
+    "group": "Field Tools",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "nec_calculators",
+    "label": "NEC calculators",
+    "description": "Electrician calculators: load, conduit fill, wire sizing, voltage drop, panel schedule (/tools).",
+    "group": "Field Tools",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "aiva_voice_bridge",
+    "label": "AIVA Voice Bridge",
+    "description": "AIVA-initiated voice calls: she rings the phone through the app (CallKit), an on-device voice agent (default-voice TTS, on-device speech recognition, Foundation Models glue) converses from a briefing pack, streams gathered answers back, and can ask AIVA mid-call. Zero cloud audio (#1521).",
+    "group": "Field Tools",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "estimates",
+    "label": "Estimates & quotes",
+    "description": "Estimate/quote builder with one-tap estimate -> invoice. Shipped core.",
+    "group": "Sales",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "invoicing",
+    "label": "Invoicing & AR",
+    "description": "Invoice lifecycle, PDF, reminders, and accounts receivable (payments, credit notes, recurring). Shipped core.",
+    "group": "Sales",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "bids_pipeline",
+    "label": "Bids pipeline",
+    "description": "Lead -> estimating -> bid-sent board with awarded tracking (#459) (/bids, /sales/bids).",
+    "group": "Sales",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "follow_ups",
+    "label": "Follow-ups",
+    "description": "Stale-bid chaser with ready-to-send drafts in the owner's voice (/follow-ups). REVIEW: tenant-ready?",
+    "group": "Sales",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "az_ev_estimate_builder",
+    "label": "A-Z EV estimate builder",
+    "description": "EV-vertical estimate builder (make-ready, DCFC, bollards), Shaffer/EV-specific (#921).",
+    "group": "Sales",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "client_portal",
+    "label": "Client portal & pay links",
+    "description": "Token-based client portal (invoices, quotes, payments, statements) and Stripe pay links (/portal, /pay).",
+    "group": "Client Portal",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "esignature",
+    "label": "E-signature",
+    "description": "Token-based signing for quotes and change orders (/sign).",
+    "group": "Client Portal",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "bills_ap",
+    "label": "Bills & AP",
+    "description": "Accounts-payable core with recurring bills (/purchases).",
+    "group": "Purchases",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "expenses",
+    "label": "Expenses",
+    "description": "Expense tracking incl. recurring expenses (/purchases/expenses).",
+    "group": "Purchases",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "purchase_orders",
+    "label": "Purchase orders",
+    "description": "POs with requisitions and landed costs bundled (/purchases/orders, /purchases/requisitions, /purchases/landed-costs). REVIEW: split bundling?",
+    "group": "Purchases",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "general_ledger",
+    "label": "General ledger",
+    "description": "Journal, chart of accounts, period close, fiscal years, opening balances, tags and cost centers (/accounting).",
+    "group": "Accounting",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "banking_feeds",
+    "label": "Bank feeds",
+    "description": "Bank connections, imports, rules and auto-categorization, payment batches (/accounting/banking).",
+    "group": "Accounting",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "bank_reconciliation",
+    "label": "Bank reconciliation",
+    "description": "Statement reconciliation incl. the guided flow and integrity diagnostics (/accounting/banking/[id]/reconcile).",
+    "group": "Accounting",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "budgets",
+    "label": "Budgets",
+    "description": "Budgeting with budget-vs-actual reporting (/accounting/budgets).",
+    "group": "Accounting",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "fixed_assets_loans",
+    "label": "Fixed assets & loans",
+    "description": "Asset and loan registers with schedules (/accounting/fixed-assets, /accounting/loans). REVIEW: tenant-ready?",
+    "group": "Accounting",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "revenue_recognition",
+    "label": "Revenue recognition & accruals",
+    "description": "Revenue schedules and accrual automation (/accounting/revenue-schedules, /accounting/accruals). REVIEW: tenant-ready?",
+    "group": "Accounting",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "sales_tax_center",
+    "label": "Sales tax center",
+    "description": "Rates, periods, sales-tax filing view and lookup; VAT/BAS/currencies bundled (/tax/*). REVIEW: split international?",
+    "group": "Taxes",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "income_tax_workspace",
+    "label": "Income tax workspace",
+    "description": "Entity return checklists (1040/1065/1120/1120-S, Schedule C) and tax documents (/tax). REVIEW: tenant-ready?",
+    "group": "Taxes",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "reports_standard",
+    "label": "Standard reports",
+    "description": "Statements, aging, spend analytics and job profitability: the shipped report pack (/reports).",
+    "group": "Reports",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "cash_flow_forecast",
+    "label": "Cash flow forecast",
+    "description": "Forward-looking cash projection (/reports/cash-flow-forecast). REVIEW: model confidence?",
+    "group": "Reports",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "custom_report_builder",
+    "label": "Custom report builder",
+    "description": "Ad-hoc report builder (/reports/custom). REVIEW: mature enough for prod?",
+    "group": "Reports",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "consolidation_multi_org",
+    "label": "Multi-org consolidation",
+    "description": "Cross-org consolidation and activity (/reports/consolidation, /accounting/cross-org-activity). Only the owner runs multiple orgs today.",
+    "group": "Reports",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "contacts_directory",
+    "label": "Contacts directory",
+    "description": "The CRM-of-record with per-contact activity, financial and file tabs (/contacts).",
+    "group": "Contacts & CRM",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "crm_pipelines",
+    "label": "CRM pipelines",
+    "description": "Deal board with analytics and pipeline configuration (/crm, /settings/pipelines). Dark on prod pending the decision to retire CRM; still visible on alpha/beta.",
+    "group": "Contacts & CRM",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "inventory_items",
+    "label": "Items & stock",
+    "description": "Item catalog with lots, serials, variants, categories and low-stock alerts (/inventory).",
+    "group": "Inventory",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "price_book",
+    "label": "Price book",
+    "description": "Contractor pricing database feeding estimates (/inventory/price-book).",
+    "group": "Inventory",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "warehouse_ops",
+    "label": "Warehouse operations",
+    "description": "Warehouses, transfers, stock takes and valuation (/inventory/warehouses, /transfers, /stock-takes, /valuation). REVIEW: valuation coverage?",
+    "group": "Inventory",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "bom_assembly",
+    "label": "BOM & assemblies",
+    "description": "Bills of materials and assembly builds (/inventory/bom, /inventory/assembly). REVIEW: used in anger yet?",
+    "group": "Inventory",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "time_clock",
+    "label": "Time clock",
+    "description": "Punch clock and one-submit crew entry (/time/clock, /time/crew). Geofence enforcement stays behind field_crew_accountability.",
+    "group": "Scheduling & Time",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "timecards",
+    "label": "Timecards & entries",
+    "description": "Per-employee weekly review and the filter/edit/audit entry list (/time/cards, /time/entries).",
+    "group": "Scheduling & Time",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "crew_scheduling",
+    "label": "Crew scheduling",
+    "description": "Week-view shift builder (/scheduling, /time/schedule; collision handling hardened in #1255).",
+    "group": "Scheduling & Time",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "time_reports",
+    "label": "Time reports",
+    "description": "Hours by project and employee plus labor reports (/time/reports).",
+    "group": "Scheduling & Time",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "field_crew_accountability",
+    "label": "Field-crew accountability",
+    "description": "Geofenced clock-in enforcement and crew-accountability tooling (#1027/#1030).",
+    "group": "Scheduling & Time",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "payroll_workforce",
+    "label": "Workforce records",
+    "description": "Employees, contractors, compensation reviews and the self-service portal (/payroll/employees, /contractors, /compensation, /self-service).",
+    "group": "Payroll",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "payroll_runs",
+    "label": "Payroll runs",
+    "description": "Run engine, payslips, export and analytics (/payroll/runs). REVIEW: real run validated end to end?",
+    "group": "Payroll",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "payroll_time_leave",
+    "label": "Time & leave",
+    "description": "Timesheet approval and leave tracking feeding runs (/payroll/time-leave, /timesheets, /leave).",
+    "group": "Payroll",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "payroll_tax_forms",
+    "label": "Payroll tax forms",
+    "description": "W-2/1099 generation and the 1099 prep report (/payroll/tax-forms, /reports/1099-prep). REVIEW: validated against real forms?",
+    "group": "Payroll",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "payroll_gusto",
+    "label": "Gusto payroll integration",
+    "description": "Connected Gusto account as the payroll engine: OAuth connect, approved-hours push, payroll journal pull (/settings/integrations/gusto). Also env-gated on GUSTO_CLIENT_ID/SECRET; dark on prod.",
+    "group": "Payroll",
+    "defaultMinChannel": "alpha"
+  },
+  {
+    "key": "org_members_roles",
+    "label": "Members, roles & teams",
+    "description": "Membership, roles, advisor access, sessions, audit trail and crew teams (/settings/members, /settings/roles, /teams).",
+    "group": "Platform & Settings",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "workflows_approvals",
+    "label": "Workflows & approvals",
+    "description": "Approval chains and the automation engine (/settings/approval-workflows, /settings/workflows). REVIEW: used beyond experiments?",
+    "group": "Platform & Settings",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "api_webhooks",
+    "label": "API & webhooks",
+    "description": "API keys plus outbound and inbound webhooks (/settings/api-keys, /settings/webhooks). REVIEW: contract stable enough to sell?",
+    "group": "Platform & Settings",
+    "defaultMinChannel": "beta"
+  },
+  {
+    "key": "email_delivery",
+    "label": "Email delivery & templates",
+    "description": "Outbound email (invoices, reminders) and document templates (/settings/integrations/email, /settings/document-templates).",
+    "group": "Platform & Settings",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "data_import_export",
+    "label": "Import, export & backups",
+    "description": "CSV import/export, org backups and trash restore (/settings/import-export, /settings/backups, /settings/trash).",
+    "group": "Platform & Settings",
+    "defaultMinChannel": "prod"
+  },
+  {
+    "key": "quickbooks_migration",
+    "label": "QuickBooks migration",
+    "description": "The QuickBooks import wizard (/settings/migrate-quickbooks). REVIEW: fidelity proven on a real QB file?",
+    "group": "Platform & Settings",
+    "defaultMinChannel": "beta"
+  }
+]

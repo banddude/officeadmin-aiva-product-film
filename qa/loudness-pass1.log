@@ -1,0 +1,28 @@
+[aist#0:0/pcm_s24le @ 0xb70e38d2e8c0] Guessed Channel Layout: stereo
+Input #0, wav, from 'public/audio/master-premaster.wav':
+  Duration: 00:01:52.00, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 pcm_s16le
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=N/A time=00:00:11.90 bitrate=N/A speed=20.9x    size=N/A time=00:00:27.40 bitrate=N/A speed=25.6x    size=N/A time=00:00:42.50 bitrate=N/A speed=  27x    size=N/A time=00:00:58.00 bitrate=N/A speed=  28x    size=N/A time=00:01:12.20 bitrate=N/A speed=  28x    size=N/A time=00:01:24.10 bitrate=N/A speed=27.3x    size=N/A time=00:01:35.80 bitrate=N/A speed=26.8x    size=N/A time=00:01:49.10 bitrate=N/A speed=26.5x    [out#0/null @ 0xb70e38cf46b0] video:0kB audio:84000kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+size=N/A time=00:01:49.10 bitrate=N/A speed=26.5x    
+[Parsed_loudnorm_0 @ 0xb70e38cb6fe0] 
+{
+	"input_i" : "-22.10",
+	"input_tp" : "-1.39",
+	"input_lra" : "11.10",
+	"input_thresh" : "-32.99",
+	"output_i" : "-16.65",
+	"output_tp" : "-1.50",
+	"output_lra" : "8.40",
+	"output_thresh" : "-27.33",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.65"
+}

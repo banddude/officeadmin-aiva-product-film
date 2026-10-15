@@ -1,0 +1,1 @@
+import React from 'react'; import {registerRoot,Composition,AbsoluteFill} from 'remotion'; const Test=()=> <AbsoluteFill style={{background:'white',justifyContent:'center',alignItems:'center',fontSize:80}}>OfficeAdmin</AbsoluteFill>; registerRoot(()=> <Composition id="Smoke" component={Test} fps={30} durationInFrames={30} width={1920} height={1080}/>);

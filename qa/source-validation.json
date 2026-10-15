@@ -1,0 +1,14 @@
+{
+  "total_frames": 3360,
+  "fps": 30,
+  "duration_seconds": 112.0,
+  "scene_count": 13,
+  "narration_cues": 14,
+  "narration_windows": "all within assigned windows; no overlaps",
+  "example_estimate_total": 18450,
+  "example_direct_cost": 12220,
+  "example_gross_profit": 6230,
+  "example_gross_margin_percent": 33.8,
+  "typecheck_log_bytes": 0,
+  "font_binaries_to_be_excluded_from_handoff": true
+}

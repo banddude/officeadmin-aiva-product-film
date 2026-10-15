@@ -1,0 +1,29 @@
+{
+  "name": "officeadmin-product-film",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fonts": "node scripts/fetch-font.mjs",
+    "studio": "remotion studio src/index.tsx",
+    "typecheck": "tsc --noEmit",
+    "render": "node production/render.mjs",
+    "render:direct": "remotion render src/index.tsx OfficeAdminFilm out/officeadmin-aiva-direct.mp4 --codec=h264 --crf=18",
+    "review": "node production/render-review.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "lucide-react": "1.57.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.535",
+    "typescript": "7.0.2",
+    "@remotion/bundler": "4.0.535",
+    "@remotion/renderer": "4.0.535"
+  },
+  "description": "OfficeAdmin + AIVA: Run the work. Not the runaround. A 112-second Remotion product film.",
+  "engines": {
+    "node": ">=22"
+  }
+}

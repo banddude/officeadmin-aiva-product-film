@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "duration_seconds": 112,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "frames": 3360,
+  "video": "H.264 / yuv420p / Rec.709 / limited range",
+  "audio": "AAC / stereo / 48000 Hz",
+  "full_decode_errors": 0,
+  "visual_review_samples": 17,
+  "synthetic_narration": true,
+  "fictional_demo_data": true,
+  "illustrative_interfaces": true,
+  "live_customer_actions_performed": false
+}

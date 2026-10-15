@@ -1,0 +1,50 @@
+{
+  "validation": {
+    "status": "passed",
+    "duration_seconds": 112,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "frames": 3360,
+    "video": "H.264 / yuv420p / Rec.709 / limited range",
+    "audio": "AAC / stereo / 48000 Hz",
+    "full_decode_errors": 0,
+    "visual_review_samples": 17,
+    "synthetic_narration": true,
+    "fictional_demo_data": true,
+    "illustrative_interfaces": true,
+    "live_customer_actions_performed": false
+  },
+  "destination": "/home/ubuntu/mikeshaffer/work/officeadmin-product-film-20261014",
+  "files": [
+    {
+      "file": "OfficeAdmin_AIVA_Product_Film.mp4",
+      "bytes": 14658450,
+      "sha256": "7c2b135ae8a8a0647ee59277d660a8cd0cc3ef2f4d8dfe87dcd633ca96d68001"
+    },
+    {
+      "file": "OfficeAdmin_AIVA_Storyboard.jpg",
+      "bytes": 462379,
+      "sha256": "830b062e0ef88f88b6093fade1332663531426e0f97c65250d382eec7193c6f9"
+    },
+    {
+      "file": "OfficeAdmin_AIVA_Poster.jpg",
+      "bytes": 78766,
+      "sha256": "94726a6bfa6b3264df2e4645824a6eedffa8975e372def3c9c475a912c1368ce"
+    },
+    {
+      "file": "OfficeAdmin_AIVA_Captions.srt",
+      "bytes": 1448,
+      "sha256": "93eb21147f5cd6573aff7f23fd07bbe2cfa3a4cab13ebe461bde8da93fe6af94"
+    },
+    {
+      "file": "OfficeAdmin_AIVA_Product_Research.md",
+      "bytes": 18726,
+      "sha256": "bde22ca5f4750706bfc2857dc4ef9699483595193a63b654ecdc3bf3b2e317be"
+    },
+    {
+      "file": "OfficeAdmin_AIVA_Remotion_Source.zip",
+      "bytes": 46233604,
+      "sha256": "fc9fc7ecbc6ee1e39a588de8d251c634cad1c79774e8acdd25fc20366c805b03"
+    }
+  ]
+}

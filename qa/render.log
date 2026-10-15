@@ -1,0 +1,103 @@
+RENDER 0-839 2026-10-15T03:12:19.726Z
+CHUNK 0 0% 2026-10-15T03:12:19.895Z
+CHUNK 0 10% 2026-10-15T03:12:39.867Z
+CHUNK 0 20% 2026-10-15T03:12:55.558Z
+CHUNK 0 30% 2026-10-15T03:13:23.327Z
+CHUNK 0 40% 2026-10-15T03:13:39.146Z
+CHUNK 0 50% 2026-10-15T03:13:59.026Z
+CHUNK 0 60% 2026-10-15T03:14:22.086Z
+CHUNK 0 70% 2026-10-15T03:14:41.686Z
+CHUNK 0 80% 2026-10-15T03:15:00.742Z
+CHUNK 0 90% 2026-10-15T03:15:31.027Z
+CHUNK 0 100% 2026-10-15T03:15:38.693Z
+SAVED /tmp/officeadmin-product-film-20261014/out/part-0.mp4
+RENDER 840-1679 2026-10-15T03:15:38.727Z
+CHUNK 840 0% 2026-10-15T03:15:38.785Z
+CHUNK 840 10% 2026-10-15T03:15:58.566Z
+CHUNK 840 20% 2026-10-15T03:16:15.444Z
+CHUNK 840 30% 2026-10-15T03:16:31.492Z
+CHUNK 840 40% 2026-10-15T03:16:47.188Z
+CHUNK 840 50% 2026-10-15T03:17:03.560Z
+CHUNK 840 60% 2026-10-15T03:17:21.410Z
+CHUNK 840 70% 2026-10-15T03:17:38.735Z
+CHUNK 840 80% 2026-10-15T03:17:56.743Z
+CHUNK 840 90% 2026-10-15T03:18:13.111Z
+CHUNK 840 100% 2026-10-15T03:18:17.482Z
+SAVED /tmp/officeadmin-product-film-20261014/out/part-840.mp4
+RENDER 1680-2519 2026-10-15T03:18:17.514Z
+CHUNK 1680 0% 2026-10-15T03:18:17.545Z
+CHUNK 1680 10% 2026-10-15T03:18:32.370Z
+CHUNK 1680 20% 2026-10-15T03:18:46.448Z
+CHUNK 1680 30% 2026-10-15T03:19:04.453Z
+CHUNK 1680 40% 2026-10-15T03:19:21.277Z
+CHUNK 1680 50% 2026-10-15T03:19:36.141Z
+CHUNK 1680 60% 2026-10-15T03:19:47.216Z
+CHUNK 1680 70% 2026-10-15T03:19:59.740Z
+CHUNK 1680 80% 2026-10-15T03:20:16.841Z
+CHUNK 1680 90% 2026-10-15T03:20:27.540Z
+CHUNK 1680 100% 2026-10-15T03:20:31.633Z
+SAVED /tmp/officeadmin-product-film-20261014/out/part-1680.mp4
+RENDER 2520-3359 2026-10-15T03:20:31.670Z
+CHUNK 2520 0% 2026-10-15T03:20:31.700Z
+CHUNK 2520 10% 2026-10-15T03:20:43.344Z
+CHUNK 2520 20% 2026-10-15T03:20:56.944Z
+CHUNK 2520 30% 2026-10-15T03:21:13.848Z
+CHUNK 2520 40% 2026-10-15T03:21:31.865Z
+CHUNK 2520 50% 2026-10-15T03:21:47.306Z
+CHUNK 2520 60% 2026-10-15T03:21:57.933Z
+CHUNK 2520 70% 2026-10-15T03:22:09.137Z
+KEEP 0-839 2026-10-15T03:24:33.424Z
+KEEP 840-1679 2026-10-15T03:24:33.528Z
+KEEP 1680-2519 2026-10-15T03:24:33.634Z
+RENDER 2520-3359 2026-10-15T03:24:33.634Z
+CHUNK 2520 0% 2026-10-15T03:24:33.711Z
+CHUNK 2520 10% 2026-10-15T03:24:46.747Z
+CHUNK 2520 20% 2026-10-15T03:24:58.797Z
+CHUNK 2520 30% 2026-10-15T03:25:16.965Z
+CHUNK 2520 40% 2026-10-15T03:25:31.470Z
+CHUNK 2520 50% 2026-10-15T03:25:45.881Z
+CHUNK 2520 60% 2026-10-15T03:25:55.207Z
+CHUNK 2520 70% 2026-10-15T03:26:05.429Z
+CHUNK 2520 80% 2026-10-15T03:26:16.809Z
+CHUNK 2520 90% 2026-10-15T03:26:28.090Z
+CHUNK 2520 100% 2026-10-15T03:26:32.019Z
+SAVED /tmp/officeadmin-product-film-20261014/out/part-2520.mp4
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0xbeab7a1ed0f0] Auto-inserting h264_mp4toannexb bitstream filter
+Input #0, concat, from '/tmp/officeadmin-product-film-20261014/out/concat.txt':
+  Duration: N/A, start: 0.000000, bitrate: 1191 kb/s
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1191 kb/s, 30 fps, 30 tbr, 90k tbn
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+    Side data:
+      ICC Profile
+[aist#1:0/pcm_s16le @ 0xbeab7a2fdfe0] Guessed Channel Layout: stereo
+Input #1, wav, from '/tmp/officeadmin-product-film-20261014/public/audio/master.wav':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:01:52.00, bitrate: 1536 kb/s
+  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/tmp/officeadmin-product-film-20261014/out/officeadmin-aiva-film.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 1191 kb/s, 30 fps, 30 tbr, 90k tbn
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+    Side data:
+      ICC Profile
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+size=       0kB time=N/A bitrate=N/A speed=N/A    size=     768kB time=00:00:04.83 bitrate=1301.8kbits/s speed=9.66x    size=    1792kB time=00:00:11.50 bitrate=1276.6kbits/s speed=11.4x    size=    3584kB time=00:00:18.53 bitrate=1584.2kbits/s speed=12.3x    size=    4608kB time=00:00:25.56 bitrate=1476.5kbits/s speed=12.7x    [mov,mp4,m4a,3gp,3g2,mj2 @ 0xbeab7a1ed0f0] Auto-inserting h264_mp4toannexb bitstream filter
+size=    5120kB time=00:00:30.80 bitrate=1361.8kbits/s speed=12.2x    size=    5888kB time=00:00:37.00 bitrate=1303.6kbits/s speed=12.3x    size=    6656kB time=00:00:43.66 bitrate=1248.7kbits/s speed=12.4x    size=    7424kB time=00:00:48.26 bitrate=1260.0kbits/s speed=  12x    size=    8448kB time=00:00:54.53 bitrate=1269.1kbits/s speed=12.1x    [mov,mp4,m4a,3gp,3g2,mj2 @ 0xbeab7a1ed0f0] Auto-inserting h264_mp4toannexb bitstream filter
+size=    8704kB time=00:01:00.60 bitrate=1176.6kbits/s speed=12.1x    size=    9728kB time=00:01:07.46 bitrate=1181.2kbits/s speed=12.2x    size=   10240kB time=00:01:12.83 bitrate=1151.8kbits/s speed=12.1x    size=   11008kB time=00:01:19.73 bitrate=1131.0kbits/s speed=12.2x    [mov,mp4,m4a,3gp,3g2,mj2 @ 0xbeab7a1ed0f0] Auto-inserting h264_mp4toannexb bitstream filter
+size=   11520kB time=00:01:24.90 bitrate=1111.6kbits/s speed=12.1x    size=   12288kB time=00:01:31.23 bitrate=1103.4kbits/s speed=12.1x    size=   12800kB time=00:01:35.66 bitrate=1096.1kbits/s speed=11.9x    size=   13312kB time=00:01:44.26 bitrate=1045.9kbits/s speed=12.2x    [mp4 @ 0xbeab7a2fe130] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xbeab7a2f60d0] video:10468kB audio:3593kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.860907%
+size=   14182kB time=00:01:51.97 bitrate=1037.5kbits/s speed=12.4x    
+[aac @ 0xbeab7a201da0] Qavg: 1609.730
+FILM COMPLETE /tmp/officeadmin-product-film-20261014/out/officeadmin-aiva-film.mp4 2026-10-15T03:26:41.348Z
