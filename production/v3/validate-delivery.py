@@ -39,7 +39,7 @@ def main():
   level=json.loads(re.findall(r'\{\s*"input_i".*?\}',measured.stderr,re.S)[-1])
   assert -16.8<float(level['input_i'])<-15.2
   assert float(level['input_tp'])<=-1.0
-  with file.open('rb') as stream:checksum=hashlib.file_digest(stream,'sha256').hexdigest()
+  checksum=hashlib.sha256(file.read_bytes()).hexdigest()
   row={'kind':kind,'filename':name,'passed':True,'width':w,'height':h,'frames':2700,'fps':30,'durationSeconds':90,'fullDecodeErrors':0,'audioMatchesMaster':True,'audioPacketSha256':digest,'integratedLufs':float(level['input_i']),'truePeakDbtp':float(level['input_tp']),'fastStart':True,'bytes':file.stat().st_size,'sha256':checksum}
   results.append(row);print(json.dumps(row),flush=True)
  QA.mkdir(parents=True,exist_ok=True);(QA/'final-delivery-validation.json').write_text(json.dumps({'passed':True,'deliveries':results},indent=2)+'\n')
