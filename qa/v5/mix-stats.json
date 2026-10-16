@@ -1,0 +1,8 @@
+{
+ "duration": 134.0,
+ "peak": 0.8699371218681335,
+ "rms_dbfs": -17.125484466552734,
+ "voice_cues": 22,
+ "music": "original synthesized (production/v5/score.py)",
+ "voice": "Kokoro ONNX v1.0 preset voices, no cloning"
+}

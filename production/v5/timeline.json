@@ -1,0 +1,431 @@
+{
+ "_note": "Single source of timing for V5 '9:14 PM'. Seconds. Scenes, VO cues, feature badges and SFX all derive from here. 30 fps.",
+ "fps": 30,
+ "duration": 134,
+ "voices": {
+  "narrator": "am_michael",
+  "aiva": "af_heart"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 6.4
+  },
+  {
+   "id": "stakes",
+   "start": 6.4,
+   "end": 12.4
+  },
+  {
+   "id": "aiva",
+   "start": 12.4,
+   "end": 16.0
+  },
+  {
+   "id": "takeoff",
+   "start": 16.0,
+   "end": 27.4
+  },
+  {
+   "id": "reply",
+   "start": 27.4,
+   "end": 34.8
+  },
+  {
+   "id": "title",
+   "start": 34.8,
+   "end": 43.0
+  },
+  {
+   "id": "signed",
+   "start": 43.0,
+   "end": 48.8
+  },
+  {
+   "id": "schedule",
+   "start": 48.8,
+   "end": 54.8
+  },
+  {
+   "id": "catch",
+   "start": 54.8,
+   "end": 68.0
+  },
+  {
+   "id": "monday",
+   "start": 68.0,
+   "end": 73.0
+  },
+  {
+   "id": "photos",
+   "start": 73.0,
+   "end": 79.8
+  },
+  {
+   "id": "wall",
+   "start": 79.8,
+   "end": 94.8
+  },
+  {
+   "id": "punch",
+   "start": 94.8,
+   "end": 99.2
+  },
+  {
+   "id": "invoice",
+   "start": 99.2,
+   "end": 106.2
+  },
+  {
+   "id": "books",
+   "start": 106.2,
+   "end": 116.6
+  },
+  {
+   "id": "kicker",
+   "start": 116.6,
+   "end": 122.6
+  },
+  {
+   "id": "recap",
+   "start": 122.6,
+   "end": 127.6
+  },
+  {
+   "id": "end",
+   "start": 127.6,
+   "end": 134
+  }
+ ],
+ "cues": [
+  {
+   "start": 1.6,
+   "slot": 4.6,
+   "voice": "narrator",
+   "text": "Meet Tony. Electrician. Dad. Currently pinned under a sleeping six-year-old."
+  },
+  {
+   "start": 6.5,
+   "slot": 6.4,
+   "voice": "narrator",
+   "text": "Whoever answers first usually wins. But his plans are at the office, and his prices are buried in email."
+  },
+  {
+   "start": 13.0,
+   "slot": 3.0,
+   "voice": "aiva",
+   "text": "I've got her plans from Tuesday. Want a price?"
+  },
+  {
+   "start": 16.2,
+   "slot": 6.6,
+   "voice": "narrator",
+   "text": "AIVA pulls the counts from Tuesday's takeoff, prices every line from Tony's price book, and builds the estimate."
+  },
+  {
+   "start": 23.0,
+   "slot": 4.3,
+   "voice": "narrator",
+   "text": "Eight thousand, nine hundred forty dollars, with a thirty percent deposit."
+  },
+  {
+   "start": 27.6,
+   "slot": 6.8,
+   "voice": "narrator",
+   "text": "She drafts the reply. Tony reads it, and Tony decides. Nothing goes out until he taps Queue for delivery."
+  },
+  {
+   "start": 35.0,
+   "slot": 8.1,
+   "voice": "narrator",
+   "text": "That's OfficeAdmin. One app that runs a contracting business, from the first text to the final payment. AIVA is the assistant inside it."
+  },
+  {
+   "start": 43.2,
+   "slot": 5.75,
+   "voice": "narrator",
+   "text": "Seven forty-two AM. Jen signs from her phone, and her deposit invoice is ready to pay."
+  },
+  {
+   "start": 49.0,
+   "slot": 5.6,
+   "voice": "narrator",
+   "text": "Friday, Tony books the crew. Ray and Sam see Monday's job right in the app."
+  },
+  {
+   "start": 54.9,
+   "slot": 7.9,
+   "voice": "narrator",
+   "text": "Sunday, eleven forty-eight PM. AIVA reads every job, every night. The crew starts at seven, and the deposit never came in."
+  },
+  {
+   "start": 62.9,
+   "slot": 2.6,
+   "voice": "aiva",
+   "text": "Want me to send Jen a friendly reminder?"
+  },
+  {
+   "start": 65.6,
+   "slot": 2.4,
+   "voice": "narrator",
+   "text": "Tony approves it, half asleep."
+  },
+  {
+   "start": 68.2,
+   "slot": 4.6,
+   "voice": "narrator",
+   "text": "Six fifty-one AM. Paid. At seven, Ray clocks in."
+  },
+  {
+   "start": 73.2,
+   "slot": 6.4,
+   "voice": "narrator",
+   "text": "Every day, the crew logs a daily report with photos. Tony knows where the job stands without driving over."
+  },
+  {
+   "start": 80.0,
+   "slot": 2.6,
+   "voice": "narrator",
+   "text": "Day three. Sam opens the wall."
+  },
+  {
+   "start": 83.2,
+   "slot": 2.6,
+   "voice": "narrator",
+   "text": "Old cloth wiring. Not in the estimate."
+  },
+  {
+   "start": 86.2,
+   "slot": 8.4,
+   "voice": "narrator",
+   "text": "Tony writes a change order from the photos, and Jen signs it from her desk. Twelve hundred forty dollars, in writing, before anyone pulls a wire."
+  },
+  {
+   "start": 95.0,
+   "slot": 3.9,
+   "voice": "narrator",
+   "text": "The punch list closes out. The inspection passes."
+  },
+  {
+   "start": 99.4,
+   "slot": 6.6,
+   "voice": "narrator",
+   "text": "One tap turns the estimate into the final invoice. One more bills the change order. Both get paid."
+  },
+  {
+   "start": 106.4,
+   "slot": 6.4,
+   "voice": "narrator",
+   "text": "Payments land in the bank feed and match themselves. Job costing shows what the job actually made."
+  },
+  {
+   "start": 113.3,
+   "slot": 2.8,
+   "voice": "narrator",
+   "text": "And Tony? He's at Mia's game."
+  },
+  {
+   "start": 128.4,
+   "slot": 4.2,
+   "voice": "narrator",
+   "text": "OfficeAdmin, with AIVA. Your office never clocks out."
+  }
+ ],
+ "badges": [
+  {
+   "t": 19.0,
+   "label": "Takeoff"
+  },
+  {
+   "t": 23.4,
+   "label": "Estimate"
+  },
+  {
+   "t": 31.6,
+   "label": "AIVA drafts"
+  },
+  {
+   "t": 44.2,
+   "label": "Client portal"
+  },
+  {
+   "t": 45.4,
+   "label": "E-sign"
+  },
+  {
+   "t": 46.8,
+   "label": "Deposit"
+  },
+  {
+   "t": 50.6,
+   "label": "Crew schedule"
+  },
+  {
+   "t": 58.6,
+   "label": "AIVA catch"
+  },
+  {
+   "t": 71.0,
+   "label": "Time clock"
+  },
+  {
+   "t": 75.6,
+   "label": "Daily report"
+  },
+  {
+   "t": 89.4,
+   "label": "Change order"
+  },
+  {
+   "t": 96.0,
+   "label": "Punch list"
+  },
+  {
+   "t": 101.6,
+   "label": "Invoice"
+  },
+  {
+   "t": 107.6,
+   "label": "Bank feed"
+  },
+  {
+   "t": 110.2,
+   "label": "Job costing"
+  },
+  {
+   "t": 112.0,
+   "label": "Reports"
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.25,
+   "kind": "buzz"
+  },
+  {
+   "t": 0.35,
+   "kind": "pop"
+  },
+  {
+   "t": 1.75,
+   "kind": "buzz"
+  },
+  {
+   "t": 1.85,
+   "kind": "pop"
+  },
+  {
+   "t": 12.6,
+   "kind": "glasses"
+  },
+  {
+   "t": 13.6,
+   "kind": "blink"
+  },
+  {
+   "t": 33.0,
+   "kind": "tap"
+  },
+  {
+   "t": 33.8,
+   "kind": "tap"
+  },
+  {
+   "t": 34.3,
+   "kind": "sent"
+  },
+  {
+   "t": 44.6,
+   "kind": "sign"
+  },
+  {
+   "t": 56.4,
+   "kind": "blink"
+  },
+  {
+   "t": 57.4,
+   "kind": "buzz"
+  },
+  {
+   "t": 66.4,
+   "kind": "tap"
+  },
+  {
+   "t": 67.0,
+   "kind": "tap"
+  },
+  {
+   "t": 68.6,
+   "kind": "paid"
+  },
+  {
+   "t": 71.0,
+   "kind": "tap"
+  },
+  {
+   "t": 76.4,
+   "kind": "shutter"
+  },
+  {
+   "t": 80.9,
+   "kind": "creak"
+  },
+  {
+   "t": 82.6,
+   "kind": "sting"
+  },
+  {
+   "t": 91.8,
+   "kind": "sign"
+  },
+  {
+   "t": 96.8,
+   "kind": "check"
+  },
+  {
+   "t": 97.6,
+   "kind": "check"
+  },
+  {
+   "t": 98.4,
+   "kind": "stamp"
+  },
+  {
+   "t": 102.2,
+   "kind": "tap"
+  },
+  {
+   "t": 104.4,
+   "kind": "paid"
+  },
+  {
+   "t": 105.2,
+   "kind": "paid"
+  },
+  {
+   "t": 115.0,
+   "kind": "crowd"
+  },
+  {
+   "t": 117.0,
+   "kind": "buzz"
+  },
+  {
+   "t": 117.1,
+   "kind": "pop"
+  },
+  {
+   "t": 120.6,
+   "kind": "blink"
+  },
+  {
+   "t": 129.2,
+   "kind": "glasses"
+  },
+  {
+   "t": 130.4,
+   "kind": "blink"
+  }
+ ]
+}

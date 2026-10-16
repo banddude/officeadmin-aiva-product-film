@@ -1,0 +1,175 @@
+{
+  "generatedBy": "production/v5/takeoff-capture/capture.cjs (+ make_plan.py, server.mjs)",
+  "appRepo": "/home/ubuntu/code/officeadmin-books",
+  "appSourceRevision": "e31b3829ca4a956056ca1045c3de56387f396a13",
+  "bundleSourceCommit": "2f552ab62d1299a864ddf9f630595b825eaec685",
+  "bundle": "public/takeoff/ copied byte-for-byte to production/v5/takeoff-capture/spa-copy (diff -rq identical); public/electrical-symbols copied to symbols-copy (identical). Nothing in the app repo was modified.",
+  "spaEntryUrl": "http://127.0.0.1:4317/takeoff/?project=film-calder&workspace=ws-calder-e1&user=crew-ray&userName=Ray%20Ochoa",
+  "spaUrlContract": "Same query shape OfficeAdmin builds in app/(dashboard)/projects/[id]/takeoff/page.tsx openWorkspace(): ?project=<id>&workspace=<id>&user=<id>&userName=<name>. project= switches the SPA to its Books API storage driver (takeoff/src/platform/storage.ts BooksDriver).",
+  "stubbedEndpoints": [
+    {
+      "route": "GET /api/v1/projects/film-calder/takeoff",
+      "returns": "{ workspaces: [{ id, name, createdAt, updatedAt }] }"
+    },
+    {
+      "route": "GET /api/v1/projects/film-calder/takeoff/ws-calder-e1",
+      "returns": "{ workspace: { id, projectId, name, version, data } } where data is the ProTakeoff Project blob: pdfs[{ path: 'books:file-calder-e1', pageCount: 1 }], markups['file-calder-e1:0'] = 6 count markups (paths: [[{x,y,id}...]], properties.count = placements), pageMetadata (scale arch-1-2, 1/2\" = 1'0\"), layers [Takeoff]"
+    },
+    {
+      "route": "GET /api/v1/projects/film-calder/takeoff/files/file-calder-e1?raw=1",
+      "returns": "plan-e1.pdf bytes, Range/206 aware (mirrors files/[fileId] route raw branch)"
+    },
+    {
+      "route": "GET /takeoff/*, /electrical-symbols/*",
+      "returns": "static copies of the app's public/ assets"
+    },
+    {
+      "route": "GET /__stage/<n>",
+      "returns": "fixture control only (how many of the six items have placements), never called by the SPA"
+    }
+  ],
+  "mutationPolicy": "server.mjs answers every non-GET with 405 and logs it. No mutation was attempted by the SPA in the capture runs (no REJECT lines in out/server-requests.log).",
+  "mutationAttemptsLogged": 0,
+  "networkFence": "Playwright context route: only http://127.0.0.1:4317 is allowed. The SPA's telemetry beacon to https://officeadmin.io/api/telemetry is intercepted in-browser and answered 204 locally (events read for render-ready detection, never sent). All other external requests are aborted.",
+  "browser": {
+    "executable": "/home/ubuntu/.agent-browser/chrome-current",
+    "version": "Chromium 151.0.7922.34",
+    "driver": "@playwright/test from officeadmin-books node_modules",
+    "flags": [
+      "--use-angle=swiftshader",
+      "--enable-unsafe-swiftshader",
+      "--ignore-gpu-blocklist",
+      "--font-render-hinting=none"
+    ],
+    "webgl": "SwiftShader WebGL (gl.MAX_TEXTURE_SIZE 8192), PixiJS renders normally"
+  },
+  "viewports": {
+    "desktop": "1920x1080 CSS px, deviceScaleFactor 2",
+    "mobile": "430x932 CSS px, deviceScaleFactor 3, isMobile + hasTouch, iPhone Safari UA"
+  },
+  "countsExpected": {
+    "Recessed LED downlight": 12,
+    "GFCI countertop receptacle": 6,
+    "Under-cabinet LED run": 3,
+    "Dedicated appliance circuit": 3,
+    "Dimmer switch": 3,
+    "Level 2 EV charger circuit, 60A": 1
+  },
+  "countsReadFromRenderedTable": "see qa/v5/takeoff-capture.log 'table' lines; every desktop capture asserted all six rows",
+  "markPlacement": "Each count placement is the PDF-point center of the matching symbol drawn by make_plan.py (out/plan-symbols.json) times RENDER_ZOOM 1.5, so marks sit on their symbols. Under-cabinet run marks sit at run midpoints.",
+  "files": [
+    {
+      "path": "public/ui-v5/plan-e1.png",
+      "sha256": "56b395aadf95f7d3a342f330a488a4d29c6a7042170f41f4c9d2b452f39df68c",
+      "pixels": [
+        7200,
+        5400
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-00.png",
+      "sha256": "6bd416e6dda9bd764adf5861c4fb08ebd14ca425911f1fa51de2d146272de318",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-01.png",
+      "sha256": "0985629a31eba356a5664ecb54c3668b35d413f147ce9c5296fc9a6d47950d9e",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-02.png",
+      "sha256": "0e60173e5779b4f8510f1400e9fd53696afa165e87000a8943db31ae679fd22e",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-03.png",
+      "sha256": "3b98b7a618445ad43b36299efd22dbe34c643f2477d5ac21b7d2609f3675313f",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-04.png",
+      "sha256": "58dcf707de2b69b6f6e2011eababa6b43a77b63beb5e4873c709463b4f0e04fd",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-05.png",
+      "sha256": "c2681c00cb9459c056eb73ff4de8f5675806f9ef7a6cd5f518ae2ee4a1478b69",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-build-06.png",
+      "sha256": "522f984c6cfcdd80985007d9bca31add13bb5d408fe4e812e05f07a096a80400",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-desktop-zoom.png",
+      "sha256": "923aa7b98db7f3b3be41c34c105e906074bd1b242f6a18a0d42ca4b03cbaa7b9",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-desktop.png",
+      "sha256": "66000c703e68acc906b8da69208bf9c9a886f1d735d43bf93838528508333ae0",
+      "pixels": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-mobile-list.png",
+      "sha256": "bfb67075ab6540edf8593f10e0e08f5724cfcf3935775f2352213bfc4f23588d",
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "public/ui-v5/takeoff-mobile.png",
+      "sha256": "685b12e3f3b01e79964615df0e7ccd14b77d7fd0421d5f03bb36d3790ca9494c",
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "production/v5/takeoff-capture/out/plan-e1.pdf",
+      "sha256": "66173584d3080dcf5492504ba3bf13679878956c937cdc001dd56ddef4d872ee",
+      "note": "fictional vector plan, 24x18 in, 1728x1296 pt"
+    }
+  ],
+  "honestNotes": [
+    "OfficeAdmin outer page chrome is absent: the SPA is captured standalone at /takeoff/ (as if the iframe were full screen). In the real app it sits inside an iframe under the OfficeAdmin topbar plus a slim 'Back | <project> . Takeoff' bar.",
+    "Data comes from a local fixture server, not the real OfficeAdmin API or database. Response shapes follow the real route handlers.",
+    "Items carry no canonical symbolId, so marks render with the SPA's legacy fallback shapes (light, receptacle, switch, square). This is how the app renders its own seeded electrical library items, which also omit symbolId. With symbolId set, the vendored bundle tore down and re-created its Pixi app while the plan was still opening and then never painted the plan (blank canvas). That looks like a real SPA race (cullVisibleMarkups identity change re-runs initApp while isAppReady stays true, so usePdfRenderer does not re-run); worth an issue in officeadmin-books.",
+    "View framing was done with the SPA's own input handlers (ctrl+wheel zoom and wheel pan on desktop; CDP two-finger pinch and one-finger drag on the phone) and the table height with its own resize handle. Nothing in the page was scripted or injected.",
+    "takeoff-desktop-zoom.png has the bottom item table collapsed (its own Collapse Panel button) to maximize the canvas.",
+    "Mouse was parked off the canvas before each desktop screenshot because the SPA draws a CAD crosshair guide at the pointer.",
+    "Unit Price and Total show '-' because the fixture items are unpriced (unitCost 0), matching how seeded items appear before pricing.",
+    "Build sequence: each frame is a fresh browser session loading a workspace in which the first N items have placements and the rest are listed at 0 count (the SPA's own zero-placement display, OA patch #1895). It is not a recording of someone tapping; marks were not placed live.",
+    "Rendering is SwiftShader (CPU WebGL); colors and antialiasing may differ slightly from a GPU device.",
+    "The plan PDF, Larkspur Studio, Calder Residence, Vela Electric, names and address are fictional (story-data.json)."
+  ]
+}

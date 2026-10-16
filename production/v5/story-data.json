@@ -1,0 +1,88 @@
+{
+  "_note": "Canonical fictional V5 story data. Every capture fixture and every scene reads these values so numbers match across the film. All names fictional; checked against the owner's contact list 2026-10-15. Money in dollars here; fixtures convert to the app's cents/hundredths conventions.",
+  "org": {"name": "Vela Electric", "slug": "vela-electric"},
+  "owner": {"name": "Tony Vela", "email": "tony@example.com"},
+  "crew": [
+    {"id": "crew-ray", "name": "Ray Ochoa", "email": "ray@example.com"},
+    {"id": "crew-sam", "name": "Sam Lin", "email": "sam@example.com"}
+  ],
+  "client": {"name": "Jen Calder", "email": "jen@example.com", "address": "2140 Larkspur Lane, Los Angeles, CA 90039"},
+  "project": {"id": "film-calder", "name": "Calder Kitchen | Remodel + EV Charger", "category": "Residential remodel"},
+  "otherProjects": [
+    {"id": "film-brightwater", "name": "Brightwater Cafe | Lighting Retrofit", "client": "Brightwater Cafe"},
+    {"id": "film-okafor", "name": "Okafor Garage | 100A Subpanel", "client": "Dana Okafor"}
+  ],
+  "takeoff": {
+    "workspace": "Calder Kitchen | Sheet E-1",
+    "walkDate": "2026-10-13",
+    "counts": [
+      {"item": "Recessed LED downlight", "count": 12},
+      {"item": "GFCI countertop receptacle", "count": 6},
+      {"item": "Under-cabinet LED run", "count": 3},
+      {"item": "Dedicated appliance circuit", "count": 3},
+      {"item": "Dimmer switch", "count": 3},
+      {"item": "Level 2 EV charger circuit, 60A", "count": 1}
+    ]
+  },
+  "estimate": {
+    "number": "EST-01231",
+    "issueDate": "2026-10-14",
+    "lines": [
+      {"description": "Recessed LED downlight, installed", "qty": 12, "unit": 185},
+      {"description": "GFCI countertop receptacle", "qty": 6, "unit": 165},
+      {"description": "Under-cabinet LED lighting run", "qty": 3, "unit": 240},
+      {"description": "Dedicated appliance circuit", "qty": 3, "unit": 310},
+      {"description": "Dimmer switch", "qty": 3, "unit": 120},
+      {"description": "Level 2 EV charger circuit, 60A", "qty": 1, "unit": 1850},
+      {"description": "Subpanel tie-in and breakers", "qty": 1, "unit": 1420},
+      {"description": "Permit and inspection", "qty": 1, "unit": 450}
+    ],
+    "total": 8940,
+    "depositPercent": 30,
+    "deposit": 2682,
+    "signedBy": "Jen Calder",
+    "signedAt": "2026-10-15T14:42:00Z"
+  },
+  "depositInvoice": {"number": "INV-01477", "amount": 2682, "issueDate": "2026-10-15", "paidAt": "2026-10-19T13:51:00Z"},
+  "changeOrder": {
+    "number": "CO-001",
+    "title": "Replace concealed cloth-insulated wiring",
+    "description": "Old cloth-insulated wiring found inside the kitchen wall on two circuits. Replace with new NM-B cable back to the subpanel, including two new breakers.",
+    "amount": 1240,
+    "createdAt": "2026-10-21T17:05:00Z",
+    "signedBy": "Jen Calder",
+    "signedAt": "2026-10-21T18:12:00Z",
+    "invoice": "INV-01489"
+  },
+  "finalInvoice": {"number": "INV-01488", "amount": 6258, "issueDate": "2026-10-29", "paidAt": "2026-10-29T16:20:00Z"},
+  "schedule": {
+    "week": "2026-10-19",
+    "calderShifts": [
+      {"who": "crew-ray", "date": "2026-10-19", "start": "07:00", "end": "15:30", "notes": "Demo, rough-in"},
+      {"who": "crew-sam", "date": "2026-10-19", "start": "07:00", "end": "15:30", "notes": "Demo, rough-in"},
+      {"who": "crew-ray", "date": "2026-10-21", "start": "07:00", "end": "15:30", "notes": "Rough-in, EV circuit"},
+      {"who": "crew-sam", "date": "2026-10-21", "start": "07:00", "end": "15:30", "notes": "Rough-in, EV circuit"}
+    ]
+  },
+  "catch": {
+    "time": "2026-10-19T06:48:00Z",
+    "localLabel": "Sunday 11:48 PM",
+    "statusLine": "Waiting on Jen Calder: the $2,682 deposit invoice is still unpaid. Ray and Sam start Monday at 7:00 AM.",
+    "draftChannel": "imessage",
+    "draftBody": "Hi Jen, just a friendly reminder that the deposit for your kitchen is still open. Ray and Sam are scheduled to start tomorrow at 7. You can pay it here whenever you are ready. Thank you! Tony"
+  },
+  "firstReply": {
+    "channel": "imessage",
+    "body": "Hi Jen, thanks for thinking of us! Here is your estimate for the kitchen lighting and the EV charger. You can review it and sign right from the link. Tony"
+  },
+  "dailyReport": {
+    "date": "2026-10-19",
+    "summary": "Demo complete. Rough-in started on the island and range wall. EV circuit route confirmed through the garage.",
+    "sharedPhotos": ["Range wall rough-in", "Subpanel opened up", "EV circuit route"],
+    "privatePhotos": ["Supply house receipt"]
+  },
+  "aivaChat": {
+    "tony": "Jen Calder wants a price on her kitchen tonight. Can you put it together?",
+    "aiva": "On it. Tuesday's takeoff on Calder Kitchen has 12 recessed lights, 6 GFCIs, 3 under-cabinet runs, 3 appliance circuits, 3 dimmers and the 60A EV circuit. Priced from your price book, that is $8,940 with a 30% deposit. The estimate and a reply to Jen are ready for your review. Nothing has been sent."
+  }
+}
